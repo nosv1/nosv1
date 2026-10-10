@@ -44,3 +44,22 @@ His vehicle-inventory automation is direct experience here.
 
 When he searches, note date, terms, and what came back worth a second look. Months of real
 postings make the winter decision easier than a blank page.
+
+### 2026-10-10 — first look (Claude, web search; boards like motorsportjobs.com block fetching)
+
+- **Pro race strategy:** mostly F1, UK-based, 3+ years in motorsport (strategy engineer roles).
+  Graduate tier exists (Cadillac F1 graduate strategy analyst, Silverstone; closed July 2026).
+  US: Ford Racing strategy engineer (sim modelling, live timing, telemetry) — location/experience
+  not verified. Williams: Senior AI and Modelling Engineer – Strategy. Bridge for him: motorsport
+  data work he can show (Soma).
+- **iRacing jobs:** gameplay/game systems programmers (C++ console game), XAML UI, customer
+  service. Not a fit today.
+- **Garmin Olathe, Data Scientist 2** (recurring posting): ML frameworks (scikit-learn, PyTorch),
+  statistics, time series, MLOps/CI a plus. **Closest fit to his MS**, local. Also Senior Data
+  Engineer, Aeronautical Data Analyst.
+- **Inventory analyst, remote:** Amerit Fleet automotive inventory analyst $70–80k (SQL + Tableau/
+  Power BI/DOMO); Carrier strategic inventory analyst $79–158k; Apex Wheels demand analyst $80–100k.
+- **KC operations analyst:** ~$51–75k (Payscale avg ~$61k, KC MO).
+- **Sim-racing startups** (Track Titan raised $5M; Coach Dave pays sim engineers): no data roles
+  found. Watch.
+- **Recurring gap across analyst postings: SQL and a BI tool.** Cheap to close.
