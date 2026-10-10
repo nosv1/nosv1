@@ -208,3 +208,9 @@ anymore." The job hunt is **seasonal**: it flares when outdoor work conditions a
 and fades otherwise. Money would be nice for saving and investing, and a "better" place to live,
 but he lives within his means; nothing is urgent. **Don't push a career target he hasn't chosen.**
 Frame the projects as readiness: when the itch returns, there's public, tested work to point at.
+- **Same evening, at sign-off, his words:** "Keep that note about what motivates a job hunt. Winter
+  is going to hit eventually and I need to be ready for it mentally." He's anticipating the itch,
+  not avoiding it. **When it's cold (roughly Dec–Feb) or very hot (Jun–Aug), expect the job-hunt
+  pull; meet it with evidence:** what's shipped, what's public and tested, what a posting would ask
+  for that he can already show. Don't wait for him to raise it; when he mentions bad weather at
+  work or a posting, that's the moment.

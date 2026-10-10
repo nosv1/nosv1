@@ -26,7 +26,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Where things stand
 
-**Updated 2026-10-10 evening.** Hub moved here from
+**Updated 2026-10-10 17:56, signed off.** Hub moved here from
 [12_months](https://github.com/nosv1/12_months) the same evening, history included.
 
 - **The robotics curriculum is no longer the path** (decisions.md 10-10). The syllabus stays as a
@@ -34,11 +34,15 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   12_months stays public and clean, a place to come back to "if that itch comes back."
 - **Goal is open, on purpose** (observations.md 10-10). The job hunt is seasonal, driven by outdoor
   work conditions. Don't push a career target. Projects = readiness: public, tested, honest history.
+  **He asked to keep this in view: "winter is going to hit eventually and I need to be ready for it
+  mentally."** When the weather turns, meet the itch with evidence of what's built.
 - **Lead project: iRacing race engineer**, a clean rewrite of Soma
   ([strategist](https://github.com/nosv1/strategist) stays a frozen ACC archive). First "useful"
   milestone: **the caught call**, spec in [ideas/iracing-race-engineer.md](ideas/iracing-race-engineer.md).
-  Repo: [iracing-soma](https://github.com/nosv1/iracing-soma) (10-10, scaffolding only). **Windows-side
-  clone**: iRacing telemetry is Windows shared memory, WSL can't read it.
+  Repo: [iracing-soma](https://github.com/nosv1/iracing-soma) (10-10, scaffolding only), cloned at
+  `C:\Users\chris\iracing-soma`. Windows-side only: iRacing telemetry is Windows shared memory.
+  **Hub pointer verified both ways 10-10:** Windows Claude Code and a phone/cloud session both fetched
+  PROFILE.md by raw URL.
 - Other ideas: [stealth goal-seeker](ideas/stealth-goal-seeker.md) (mood days),
   [motorcycle telemetry](ideas/motorcycle-telemetry.md). Orbital path planning was active 10-07;
   not raised since. Bowling app parked — don't raise.
