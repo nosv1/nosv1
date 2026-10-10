@@ -1,9 +1,9 @@
-# Chris Seagraves
+# Christopher Seagraves
 
-MS in Computer Science (2024, data science). I build things around sim racing, strategy, and
+I'm a software dev hobbyist with a MS in Computer Science (2024, data science). I build things around sim racing, strategy, and
 optimization.
 
-## Projects
+## Projects (that claude thought was useful to include here...)
 
 - [strategist](https://github.com/nosv1/strategist) — race-strategy engineer for Assetto Corsa
   Competizione: live telemetry, stint tracking, voice alerts.
@@ -13,5 +13,5 @@ optimization.
   path planning and pursuit-evasion from a graduate robotics course.
 - [sra-insights](https://github.com/nosv1/sra-insights) — live stats site for a sim-racing league.
 
-The rest of this repo is working notes: my profile and the notes my AI teaching assistant keeps
+The rest of this repo is working notes: my profile and the notes Cladue keeps
 across projects.
