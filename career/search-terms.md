@@ -7,6 +7,18 @@ Made at his request, for when the seasonal itch hits (see
 he actually wants it and believes he can be decent at it. "Want" is his call. "Can be decent" —
 let the posting's requirements answer that, not his gut; he has underrated himself before.
 
+## His ins (10-10)
+
+- **Honeywell:** his brother works there.
+- **Garmin:** at least one connection.
+
+"Companies I may not dream about but could probably get in the door at least." A referral usually
+does more than a perfect search term; when the itch comes, ask the contact *before* applying.
+
+**His framing of the tradeoff:** "I don't dream of being a software engineer, but money and inside
+has its pros, just like clocking out, low stress, and daily fresh air do." Both sides have real
+pros. Don't treat the current job as something to escape.
+
 ## 1. Strong pull: strategy, racing, optimization
 
 - `race strategy engineer`, `race strategist`
@@ -63,3 +75,22 @@ postings make the winter decision easier than a blank page.
 - **Sim-racing startups** (Track Titan raised $5M; Coach Dave pays sim engineers): no data roles
   found. Watch.
 - **Recurring gap across analyst postings: SQL and a BI tool.** Cheap to close.
+
+Sources:
+[Fluid Jobs — race team](https://fluidjobs.com/jobs/race-team) ·
+[F1 Strategy Engineer (2026)](https://www.motorsportjobs.com/en/job/f1-strategy-engineer-2026-3) ·
+[Graduate Race Strategy Engineer, Silverstone](https://www.motorsportjobs.com/en/job/graduate-race-strategy-engineer-1) ·
+[Strategy Engineer jobs](https://www.motorsportjobs.com/en/jobs/strategy-engineer) ·
+[Autosport — top five roles](https://www.autosport.com/general/news/top-five-roles-on-motorsport-jobs-this-week-10832740/10832740/) ·
+[iRacing jobs](https://www.iracing.com/jobs) ·
+[Sportscar Data Analyst, Concord](https://www.motorsportjobs.com/us/job/motorsports-sportscar-data-analyst) ·
+[Fluid Jobs — data analyst](https://fluidjobs.com/jobs/data-analyst) ·
+[Garmin Data Scientist 2 (SpaceTalent)](https://jobs.spacetalent.org/companies/garmin-2/jobs/56870350-data-scientist-2) ·
+[Garmin Data Scientist 2 (WeAreDevelopers)](https://www.wearedevelopers.com/jobs/ext/7169825/data-scientist-2) ·
+[Garmin Aviation Data Analyst (Tallo)](https://tallo.com/talent/job/transportation/pilot/ks/olathe/aviation-pilot-data-analyst-8a2b6bc9) ·
+[Automotive Inventory Analyst](https://www.virtualvocations.com/job/automotive-inventory-analyst-3113489-i.html) ·
+[Demand Analyst, Remote](https://builtin.com/job/demand-analyst-remote-usa/7360822) ·
+[Carrier Strategic Inventory Analyst](https://remotive.com/remote/jobs/supply-chain/strategic-inventory-analyst-5117521) ·
+[Operations Analyst salary, KC MO](https://www.payscale.com/research/US/Job=Operations_Analyst/Salary/a81b2a1d/Kansas-City-MO) ·
+[Track Titan raises $5M](https://itbrief.news/story/track-titan-raises-usd-5m-to-power-ai-racing-coaching) ·
+[Coach Dave Academy](https://coachdaveacademy.com/?p=98209)
