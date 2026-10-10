@@ -9,8 +9,16 @@ let the posting's requirements answer that, not his gut; he has underrated himse
 
 ## His ins (10-10)
 
-- **Honeywell:** his brother works there.
-- **Garmin:** at least one connection.
+- **Honeywell, Belton MO area:** his brother works there. Likely the Kansas City National Security
+  Campus (Botts Rd, south KC, next to Belton), which Honeywell runs for NNSA. Clearance work;
+  he passed on defense offers before. Not confirmed which site.
+- **Garmin, Olathe KS:** at least one connection.
+
+**On aeronautics (his words: "would be cool, but I don't have that aeronautics background, I just
+code things"):** Garmin aviation hires software engineers and data people, not only aero
+engineers; domain is learned on the job. His adjacent evidence: proportional navigation, Dubins
+paths, pursuit-evasion, and path planning (2022 grad course); thrust vector control (12_months
+textbook 27); orbital path planning side project.
 
 "Companies I may not dream about but could probably get in the door at least." A referral usually
 does more than a perfect search term; when the itch comes, ask the contact *before* applying.
