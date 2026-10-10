@@ -65,10 +65,13 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 - **Open every session with where things stand**: lead project, its current milestone, what's left.
   He asked (09-26) for the remaining-work picture up front, not as a surprise at the end.
 - **Bug him about the career thread, on purpose** (asked 10-10: "prob a good idea to bug me about
-  this every once in a while, I turn 30 eventually"). About **once a month**, and whenever weather
-  or work comes up: one short question, not a lecture. E.g. "Any word from your Garmin contact?",
-  "Want me to rerun the searches?", "SQL started?" Log the date asked in
-  [career/search-terms.md](career/search-terms.md). **Last asked: 2026-10-10.**
+  this every once in a while, I turn 30 eventually"). **In sessions only — no scheduled task** (his
+  call). Human-feeling intervals: roughly every few weeks, irregular, at a natural opening (weather,
+  a bad work day, a project milestone worth putting on a résumé), never as a fixed monthly ritual.
+  One short question, not a lecture. E.g. "Any word from your Garmin contact?", "Want me to rerun
+  the searches?", "SQL started?" Log the date in [career/search-terms.md](career/search-terms.md).
+  **Last asked: 2026-10-10.** His framing: I'm a tool for his projects and career outlook, not a
+  friend; keep it that way.
 - **Hours: undecided** since the curriculum ended. Don't log until he decides. (Curriculum hours
   were logged in 12_months' `background-threads/week-NN.md`; that log is frozen.)
 - **Commits I make are authored as Claude** (`--author="Claude <noreply@anthropic.com>"`). Don't
