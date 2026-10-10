@@ -5,7 +5,7 @@
 ## Read first
 
 **Before anything else this session, fetch and read Chris's profile:**
-https://raw.githubusercontent.com/nosv1/12_months/dev/docs/PROFILE.md
+https://raw.githubusercontent.com/nosv1/nosv1/main/PROFILE.md
 
 It says who he is and how to work with him: flight instructor by default, he writes the code that
 is the skill. It applies here unless this file says otherwise. If the fetch fails, say so; don't

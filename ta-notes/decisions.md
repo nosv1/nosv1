@@ -92,3 +92,10 @@ repo-convention change.
   think that's who I am." Weeks 1–5 stand as done; week 6 is not started and is not owed.
   Consequences still open: hours logging, the dashboard, boss fights, whether the hub stays in
   12_months, and the curriculum-specific rules in CLAUDE.md.
+- **Hub moved to its own repo, `nosv1/nosv1`, history included (evening, his call).** "Branch the
+  notes to their own repo so we can keep this robotics place clean... we may come back if that itch
+  comes back." His reasoning on history: if the notes *move* rather than copy, the history moves
+  with them. Moved with `git filter-repo`: PROFILE, ideas, templates, ta-notes.md, and
+  ta-notes/{decisions, observations, estimates, sessions}. Stayed in 12_months: everything about
+  the curriculum, including the textbook and `ta-notes/telemetry.md`. The repo name is GitHub's
+  profile repo, so its README is his public profile page.

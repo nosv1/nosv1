@@ -160,7 +160,7 @@ Opened with "WEDNESDAY CLAUDE WOO" on an off day. Went from one assertion to 29 
    it does? also check expected values are as they should be?" Both half right. Answer given: a
    test is a claim about a promise, not a recording of behavior; expected values must come from
    outside the implementation; cases come from the spec clause by clause, then boundaries, then
-   non-value shapes, then the happy path. Written up as [textbook 11](../../textbook/11-writing-tests.md).
+   non-value shapes, then the happy path. Written up as [textbook 11](https://github.com/nosv1/12_months/blob/dev/docs/textbook/11-writing-tests.md).
 2. **Asked him to name the promises of `validate_parsed_line_values`.** He returned the eleven
    per-field checks — right list, wrong function. Used that to separate unit contracts from
    collector contracts (partition, never-raises, values intact). The partition invariant is the
@@ -192,7 +192,7 @@ Opened with "WEDNESDAY CLAUDE WOO" on an off day. Went from one assertion to 29 
    in all five sites. Two tests went red instantly. Gave the rule (`raise NEW from OLD`), the
    out-loud check, and the note that `from` never changes which exception propagates. Registered
    with him that the tests had just earned their keep on a five-site mechanical change.
-   [Textbook 12](../../textbook/12-exception-chaining-and-lint-rulesets.md).
+   [Textbook 12](https://github.com/nosv1/12_months/blob/dev/docs/textbook/12-exception-chaining-and-lint-rulesets.md).
 9. **My `set({...})` remark misfired** — said the `set()` wrapper was redundant, he deleted the
    braces instead and got `TypeError: set expected at most 1 argument, got 8`. My wording, not his
    error. Worth being literal about which half to delete next time.
@@ -233,7 +233,7 @@ said how to pay for it — slip README and CI, not the fight. Plan given: Thursd
 red plus the accepts side, Friday for multi-error collection, hard stop Friday night. Cut into week
 3: README, CI, `pdb`, splitting `test_validations.py`, ruff config, and all of the item-9 smalls.
 
-1. **Wrote [docs/telemetry-requirements.md](../../telemetry-requirements.md)** — the customer spec as
+1. **Wrote [docs/telemetry-requirements.md](https://github.com/nosv1/12_months/blob/dev/docs/telemetry-requirements.md)** — the customer spec as
    a standalone contract, requirements only, no design and no defect list. It's the permitted input
    for the fight; the README can't be, because Architecture and Design decisions sit right below the
    ranges table. He asked for the customer voice and explicitly asked me to **hold the project-manager
@@ -246,7 +246,7 @@ red plus the accepts side, Friday for multi-error collection, hard stop Friday n
    a `sample_` prefix. No such rule — exact-name lookup, `@pytest.fixture(name=...)` the only
    indirection. Taught conftest discovery and directory scope, and **ERROR vs FAILED**: the suite read
    `31 passed, 2 errors`, which is 31 right and 2 *unknown* — the attribution red wasn't running at
-   all. [Textbook 13](../../textbook/13-fixture-resolution-and-reading-errors.md).
+   all. [Textbook 13](https://github.com/nosv1/12_months/blob/dev/docs/textbook/13-fixture-resolution-and-reading-errors.md).
 4. **The accepts side, his, and it paid immediately.** He raised the right objection himself
    (rows ≠ errors, so a length comparison counts the wrong thing) and the right second one ("no way
    in hell am I listing every line number besides the errored ones"). Restated the partition
@@ -294,7 +294,7 @@ red plus the accepts side, Friday for multi-error collection, hard stop Friday n
     into the coverage table — 29 tests on four pure functions that all worked, zero on the three
     stateful ones holding every open bug — and the mechanism: a test is cheapest to write where you
     already know the answer, so coverage flows toward confidence, which maps where bugs *aren't*.
-    [Textbook 14](../../textbook/14-partition-invariants-and-where-tests-go.md).
+    [Textbook 14](https://github.com/nosv1/12_months/blob/dev/docs/textbook/14-partition-invariants-and-where-tests-go.md).
 13. **`type[Exception]` vs `Exception`.** He tried annotating `expected_error` and got
     `No overload variant of "raises" matches argument type "Exception"`. Reproduced it. Explained
     instance-vs-class, why the message names `BaseException` (pytest's TypeVar is bound to it, since
@@ -341,7 +341,7 @@ night."* Friday had exactly one item on it by his own plan, and it landed.
    left only one exit: make the function return something. Reproduced all three variants to confirm
    mypy rejects both assert forms and accepts the bare call. He committed
    *"remove the assert and the return True lol"* before I finished writing it up.
-   [Textbook 15](../../textbook/15-void-functions-and-what-you-hold-fixed.md).
+   [Textbook 15](https://github.com/nosv1/12_months/blob/dev/docs/textbook/15-void-functions-and-what-you-hold-fixed.md).
 4. **Held the contract on record granularity.** His plan was one `BadReading` per *value*; §6 says
    one record per row carrying a list. Raised it as the customer before he wrote it — three sibling
    JSON entries with the same line number is three tickets, which is the exact failure §6 describes.
@@ -369,7 +369,7 @@ night."* Friday had exactly one item on it by his own plan, and it landed.
    they're synonyms; the real distinction is running-accumulator vs one-call-over-the-sequence.
    He took the accumulator option and moved the sentinels into loop locals. Verified with
    `json.dumps(..., allow_nan=False)`.
-   [Textbook 16](../../textbook/16-folds-sentinels-and-where-missing-leaks.md).
+   [Textbook 16](https://github.com/nosv1/12_months/blob/dev/docs/textbook/16-folds-sentinels-and-where-missing-leaks.md).
 9. **"the amount of close i am, and im not getting it, is gonna ruin me XD"** — answered with the
    distinction that mattered: he understood `default=` on first contact and missed a calling
    convention. Conceptual gaps compound, API trivia doesn't. He was also stuck on a *decision*, which
