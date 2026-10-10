@@ -59,7 +59,7 @@ the SDK exposes per car index.
 The project itself has no "done"; it's ongoing while he races. Publishing it for others is a
 possible later bar, and needs the testing rigor he's been building since week 1.
 
-**Repo:** a new one, not `strategist`. Strategist stays a frozen archive to read (`Soma/Alerts.py`,
+**Repo:** [iracing-soma](https://github.com/nosv1/iracing-soma), not `strategist`. Strategist stays a frozen archive to read (`Soma/Alerts.py`,
 `Soma/Analysis.py`). The name "Soma" (Strategy Operations and Monitoring Assistant) may come along.
 
 ## What was wrong with the ACC version

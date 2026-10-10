@@ -37,7 +37,8 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 - **Lead project: iRacing race engineer**, a clean rewrite of Soma
   ([strategist](https://github.com/nosv1/strategist) stays a frozen ACC archive). First "useful"
   milestone: **the caught call**, spec in [ideas/iracing-race-engineer.md](ideas/iracing-race-engineer.md).
-  New repo not created yet.
+  Repo: [iracing-soma](https://github.com/nosv1/iracing-soma) (10-10, scaffolding only). **Windows-side
+  clone**: iRacing telemetry is Windows shared memory, WSL can't read it.
 - Other ideas: [stealth goal-seeker](ideas/stealth-goal-seeker.md) (mood days),
   [motorcycle telemetry](ideas/motorcycle-telemetry.md). Orbital path planning was active 10-07;
   not raised since. Bowling app parked — don't raise.
@@ -46,8 +47,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Next session
 
-1. **iRacing engineer repo**: create it from [templates/project-CLAUDE.md](templates/project-CLAUDE.md);
-   name his (Soma may come along). Then his research: what the iRacing SDK exposes per car index,
+1. **iracing-soma**: his research: what the iRacing SDK exposes per car index,
    and whether line crossings must be detected. Recorder + replay first.
 2. **Still undecided from 10-10** (park unless he raises them): hours logging after the curriculum
    (proposed: log project hours, all projects); open caught-call questions (ahead by position or on
