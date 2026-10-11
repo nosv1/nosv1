@@ -37,3 +37,12 @@ Course: **ME5501 Robotics, Fall 2022**, ROS 2 (`rclpy`) + Gazebo + TurtleBot3.
   `SearchAlgorithms/` has Dijkstra, A*, RRT, Dubins testing, and a GA for TSP, with JSON scenarios.
   `Exam2/` has TagYoureIt videos, A* TSP, and a Gazebo world. `HW6/` is the PN write-up.
 - **The detector-cone scenario itself isn't in either repo.** The class ended before it was built.
+
+## His first approaches (10-11, morning, in bed)
+
+1. **Observe first**: watch red's movements to see if it repeats, then find the optimal path.
+2. **Scout**: blue has a scout.
+3. **Cone as obstacle**: add red's *known* detection cone to blue's obstacle list and replan as
+   needed.
+
+Open: the repo name.
