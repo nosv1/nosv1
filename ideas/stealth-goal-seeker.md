@@ -46,3 +46,12 @@ Course: **ME5501 Robotics, Fall 2022**, ROS 2 (`rclpy`) + Gazebo + TurtleBot3.
    needed.
 
 Open: the repo name.
+
+## Scoring and sensors (10-11, his)
+
+- Blue's sensors vs red's: if blue's aren't better, blue must be faster. A blue that's slower and
+  doesn't know where red is "is going to lose every time."
+- **Time is scored.** Reach the goal as fast as possible, undetected.
+- Detected is "not ideal"; detected **and caught** is the real problem. Maybe being slightly detected
+  is acceptable if blue still reaches the goal.
+- **Rescue variant:** reach the goal and get back, undetected.
