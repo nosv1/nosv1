@@ -26,7 +26,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Where things stand
 
-**Updated 2026-10-11 07:34.** Hub moved here from
+**Updated 2026-10-11 17:04 CDT.** Hub moved here from
 [12_months](https://github.com/nosv1/12_months) the same evening, history included.
 
 - **The robotics curriculum is no longer the path** (decisions.md 10-10). The syllabus stays as a
@@ -37,7 +37,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   **He asked to keep this in view: "winter is going to hit eventually and I need to be ready for it
   mentally."** When the weather turns, meet the itch with evidence of what's built.
 - **No lead project (10-11, his call):** "the lead is irrelevant." He works on whatever he's
-  thinking about that day. Two active:
+  thinking about that day. Three active:
 - **Otto** (robot; first mission: stealth goal-seeker, [notes](ideas/stealth-goal-seeker.md)), active
   10-11. Repo [otto-the-robot](https://github.com/nosv1/otto-the-robot) (10-11). Ticks off the 12_months skills map.
 - **iRacing race engineer**, a clean rewrite of Soma
@@ -47,6 +47,8 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   `C:\Users\chris\iracing-soma`. Windows-side only: iRacing telemetry is Windows shared memory.
   **Hub pointer verified both ways 10-10:** Windows Claude Code and a phone/cloud session both fetched
   PROFILE.md by raw URL.
+- **E-ink temp/humidity PCB** with his brother Seth (10-11, [notes](ideas/eink-sensor-pcb.md)): first
+  PCB, KiCad, PCBWay assembles. Schematic done (ERC 0/0), footprints part-way. Not in a repo yet.
 - Other ideas: [motorcycle telemetry](ideas/motorcycle-telemetry.md). Orbital path planning was active 10-07;
   not raised since. Bowling app parked — don't raise.
 - **Off days are real.** He ran ~19 h/week for 22 days straight into October; enthusiasm dropped.
@@ -58,7 +60,10 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
    Problem statement in the notes is his; design stays his.
 2. **iracing-soma**: his research: what the iRacing SDK exposes per car index,
    and whether line crossings must be detected. Recorder + replay first.
-3. **Still undecided from 10-10** (park unless he raises them): hours logging after the curriculum
+3. **E-ink PCB**: pick a display-only module (DFR0676 is a whole ESP32 board, so it's the
+   firmware prototype instead), then footprints for J1–J3/SW1–2, then the PCB editor. Offer a repo
+   for the KiCad project (scaffolding is mine to do).
+4. **Still undecided from 10-10** (park unless he raises them): hours logging after the curriculum
    (proposed: log project hours, all projects); open caught-call questions (ahead by position or on
    track; name or position in the call); the milestone's "done" (proposed: spoken, a real race,
    left on the whole time, calls right).
