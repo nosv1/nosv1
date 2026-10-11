@@ -45,8 +45,6 @@ Course: **ME5501 Robotics, Fall 2022**, ROS 2 (`rclpy`) + Gazebo + TurtleBot3.
 3. **Cone as obstacle**: add red's *known* detection cone to blue's obstacle list and replan as
    needed.
 
-Open: the repo name.
-
 ## Scoring and sensors (10-11, his)
 
 - Blue's sensors vs red's: if blue's aren't better, blue must be faster. A blue that's slower and
@@ -55,3 +53,9 @@ Open: the repo name.
 - Detected is "not ideal"; detected **and caught** is the real problem. Maybe being slightly detected
   is acceptable if blue still reaches the goal.
 - **Rescue variant:** reach the goal and get back, undetected.
+
+## Name: Otto (10-11, his pick)
+
+**OTTO**: *Observe, Think, Then Operate.* Named for the robot, not the mission, so it still fits
+if the robot's capabilities grow into something else (his reason). Stealth is Otto's first mission.
+Repo: **Otto-the-robot** ("to at least be a little descriptive"), not yet created.

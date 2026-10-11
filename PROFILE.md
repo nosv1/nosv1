@@ -93,5 +93,5 @@ Fuller history: [12_months/CLAUDE.md](https://github.com/nosv1/12_months/blob/de
 | [12_months](https://github.com/nosv1/12_months) | Robotics + AI curriculum, weeks 1–5 | paused 10-10; skills map, may return |
 | [strategist](https://github.com/nosv1/strategist) | ACC race engineer ("Soma"), Python | frozen archive; read for reference |
 | [iracing-soma](https://github.com/nosv1/iracing-soma) | Soma rewrite for iRacing: local LLM, spotter, audio first | active; milestone 1 = caught call — [notes](ideas/iracing-race-engineer.md) |
-| — | Stealth goal-seeker: ROS 2 robot reaches a goal unseen by patrolling detectors | active 10-11; own repo, not yet created — [notes](ideas/stealth-goal-seeker.md) |
+| Otto-the-robot (not yet created) | **Otto**, a ROS 2 robot. First mission: reach a goal unseen by patrolling detectors | active 10-11 — [notes](ideas/stealth-goal-seeker.md) |
 | — | Motorcycle telemetry | idea — [notes](ideas/motorcycle-telemetry.md) |

@@ -38,8 +38,8 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   mentally."** When the weather turns, meet the itch with evidence of what's built.
 - **No lead project (10-11, his call):** "the lead is irrelevant." He works on whatever he's
   thinking about that day. Two active:
-- **Stealth goal-seeker** ([notes](ideas/stealth-goal-seeker.md)), active 10-11. Own repo, not yet
-  created. Ticks off the 12_months skills map.
+- **Otto** (robot; first mission: stealth goal-seeker, [notes](ideas/stealth-goal-seeker.md)), active
+  10-11. Repo Otto-the-robot, not yet created. Ticks off the 12_months skills map.
 - **iRacing race engineer**, a clean rewrite of Soma
   ([strategist](https://github.com/nosv1/strategist) stays a frozen ACC archive). First "useful"
   milestone: **the caught call**, spec in [ideas/iracing-race-engineer.md](ideas/iracing-race-engineer.md).
