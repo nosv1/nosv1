@@ -19,9 +19,11 @@ From his grad robotics class, about three years ago. Never finished because the 
 
 ## Status
 
-He wants it **in the curriculum**, maybe as the project that the reshape is built around. Next step:
-he brings the original project details (assignment, code if he still has it). Design is his.
-Flight-instructor terms apply.
+**Active, 10-11.** Its own repo (not created yet), like every project; not a curriculum week. The
+10-10 "in the curriculum" plan was overtaken the same evening when the curriculum stopped being the
+path. It ticks skills off the [12_months](https://github.com/nosv1/12_months) map instead (SLAM,
+planning, ROS 2 + Gazebo, controllers). The 2022 repos below stay as the archive; the new repo
+starts fresh, same as strategist → iracing-soma. Design is his. Flight-instructor terms apply.
 
 ## The original code (found 10-10)
 

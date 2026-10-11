@@ -26,7 +26,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Where things stand
 
-**Updated 2026-10-10 17:56, signed off.** Hub moved here from
+**Updated 2026-10-11 07:34.** Hub moved here from
 [12_months](https://github.com/nosv1/12_months) the same evening, history included.
 
 - **The robotics curriculum is no longer the path** (decisions.md 10-10). The syllabus stays as a
@@ -36,24 +36,29 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   work conditions. Don't push a career target. Projects = readiness: public, tested, honest history.
   **He asked to keep this in view: "winter is going to hit eventually and I need to be ready for it
   mentally."** When the weather turns, meet the itch with evidence of what's built.
-- **Lead project: iRacing race engineer**, a clean rewrite of Soma
+- **No lead project (10-11, his call):** "the lead is irrelevant." He works on whatever he's
+  thinking about that day. Two active:
+- **Stealth goal-seeker** ([notes](ideas/stealth-goal-seeker.md)), active 10-11. Own repo, not yet
+  created. Ticks off the 12_months skills map.
+- **iRacing race engineer**, a clean rewrite of Soma
   ([strategist](https://github.com/nosv1/strategist) stays a frozen ACC archive). First "useful"
   milestone: **the caught call**, spec in [ideas/iracing-race-engineer.md](ideas/iracing-race-engineer.md).
   Repo: [iracing-soma](https://github.com/nosv1/iracing-soma) (10-10, scaffolding only), cloned at
   `C:\Users\chris\iracing-soma`. Windows-side only: iRacing telemetry is Windows shared memory.
   **Hub pointer verified both ways 10-10:** Windows Claude Code and a phone/cloud session both fetched
   PROFILE.md by raw URL.
-- Other ideas: [stealth goal-seeker](ideas/stealth-goal-seeker.md) (mood days),
-  [motorcycle telemetry](ideas/motorcycle-telemetry.md). Orbital path planning was active 10-07;
+- Other ideas: [motorcycle telemetry](ideas/motorcycle-telemetry.md). Orbital path planning was active 10-07;
   not raised since. Bowling app parked — don't raise.
 - **Off days are real.** He ran ~19 h/week for 22 days straight into October; enthusiasm dropped.
   Watch load, not just progress.
 
 ## Next session
 
-1. **iracing-soma**: his research: what the iRacing SDK exposes per car index,
+1. **Stealth goal-seeker**: create the repo (from [templates/](templates/)) when he's ready.
+   Problem statement in the notes is his; design stays his.
+2. **iracing-soma**: his research: what the iRacing SDK exposes per car index,
    and whether line crossings must be detected. Recorder + replay first.
-2. **Still undecided from 10-10** (park unless he raises them): hours logging after the curriculum
+3. **Still undecided from 10-10** (park unless he raises them): hours logging after the curriculum
    (proposed: log project hours, all projects); open caught-call questions (ahead by position or on
    track; name or position in the call); the milestone's "done" (proposed: spoken, a real race,
    left on the whole time, calls right).
@@ -62,7 +67,8 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Standing instructions
 
-- **Open every session with where things stand**: lead project, its current milestone, what's left.
+- **Open every session with where things stand**: active projects, their current milestones, what's
+  left. No lead; don't rank them (10-11).
   He asked (09-26) for the remaining-work picture up front, not as a surprise at the end.
 - **Bug him about the career thread, on purpose** (asked 10-10: "prob a good idea to bug me about
   this every once in a while, I turn 30 eventually"). **A self-rescheduling cloud routine, "career

@@ -26,7 +26,7 @@ of it: how long tires last, and the tradeoff between tires, fuel, and stint leng
 already did some of this. This persistent store is what the LLM's code fallback queries, and it's
 the seed of a strategy brain (pit windows, stint plans, simulating the rest of the race).
 
-**Why this one leads (his words):** the stealth robot "would be fun"; the race engineer "would be
+**Why this one led (10-10, his words; no lead since 10-11):** the stealth robot "would be fun"; the race engineer "would be
 useful and fun." The robot gets built and put aside, while the engineer gets used for as long as
 he races iRacing. A project he'll keep using is the one that gets finished.
 

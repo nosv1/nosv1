@@ -99,3 +99,10 @@ repo-convention change.
   ta-notes/{decisions, observations, estimates, sessions}. Stayed in 12_months: everything about
   the curriculum, including the textbook and `ta-notes/telemetry.md`. The repo name is GitHub's
   profile repo, so its README is his public profile page.
+
+## 2026-10-11
+
+- **No lead project (07:34 CDT, his call).** "The lead is irrelevant, today I'm thinking about
+  robots." Projects run by interest, not rank. Don't frame one as the lead or nudge him back to it.
+- **Stealth goal-seeker gets its own repo**, not a curriculum week. Follows from 10-10 (each project
+  its own repo; curriculum = skills map). The 2022 course repos stay as the archive.
