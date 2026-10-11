@@ -58,4 +58,5 @@ Course: **ME5501 Robotics, Fall 2022**, ROS 2 (`rclpy`) + Gazebo + TurtleBot3.
 
 **OTTO**: *Observe, Think, Then Operate.* Named for the robot, not the mission, so it still fits
 if the robot's capabilities grow into something else (his reason). Stealth is Otto's first mission.
-Repo: **Otto-the-robot** ("to at least be a little descriptive"), not yet created.
+Repo: [otto-the-robot](https://github.com/nosv1/otto-the-robot) ("to at least be a little
+descriptive"; lowercase to match his other repos), created 10-11.

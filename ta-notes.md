@@ -39,7 +39,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 - **No lead project (10-11, his call):** "the lead is irrelevant." He works on whatever he's
   thinking about that day. Two active:
 - **Otto** (robot; first mission: stealth goal-seeker, [notes](ideas/stealth-goal-seeker.md)), active
-  10-11. Repo Otto-the-robot, not yet created. Ticks off the 12_months skills map.
+  10-11. Repo [otto-the-robot](https://github.com/nosv1/otto-the-robot) (10-11). Ticks off the 12_months skills map.
 - **iRacing race engineer**, a clean rewrite of Soma
   ([strategist](https://github.com/nosv1/strategist) stays a frozen ACC archive). First "useful"
   milestone: **the caught call**, spec in [ideas/iracing-race-engineer.md](ideas/iracing-race-engineer.md).
