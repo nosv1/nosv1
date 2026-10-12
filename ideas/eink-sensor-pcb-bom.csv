@@ -1,0 +1,18 @@
+Designator,Qty,Value,Description,Manufacturer,MPN,Package,Footprint (KiCad)
+"C1,C2,C5",3,1u,"Ceramic cap 1uF 25V X7R",Samsung,CL21B105KAFNNNE,0805,Capacitor_SMD:C_0805_2012Metric
+C3,1,10u,"Ceramic cap 10uF 16V X5R",Samsung,CL21A106KOQNNNE,0805,Capacitor_SMD:C_0805_2012Metric
+"C4,C8,C9",3,100n,"Ceramic cap 100nF 50V X7R",Samsung,CL21B104KBCNNNC,0805,Capacitor_SMD:C_0805_2012Metric
+"C6,C7",2,4.7u,"Ceramic cap 4.7uF 25V X5R",Samsung,CL21A475KAQNNNE,0805,Capacitor_SMD:C_0805_2012Metric
+"R1,R2,R5,R6,R8,R9,R10",7,10k,"Resistor 10k 1%",Yageo,RC0805FR-0710KL,0805,Resistor_SMD:R_0805_2012Metric
+"R3,R4",2,5.1k,"Resistor 5.1k 1% (USB-C CC)",Yageo,RC0805FR-075K1L,0805,Resistor_SMD:R_0805_2012Metric
+R7,1,1k,"Resistor 1k 1% (charge LED)",Yageo,RC0805FR-071KL,0805,Resistor_SMD:R_0805_2012Metric
+"R11,R12",2,1M,"Resistor 1M 1% (battery divider)",Yageo,RC0805FR-071ML,0805,Resistor_SMD:R_0805_2012Metric
+D1,1,Red LED,"LED red 0805 (charging)",Lite-On,LTST-C171KRKT,0805,LED_SMD:LED_0805_2012Metric
+U1,1,AP2112K-3.3,"LDO 3.3V 600mA",Diodes Inc,AP2112K-3.3TRG1,SOT-23-5,Package_TO_SOT_SMD:SOT-23-5
+U2,1,ESP32-C3-WROOM-02,"Wi-Fi/BLE MCU module, 4MB flash",Espressif,ESP32-C3-WROOM-02-N4,Module,RF_Module:ESP32-C3-WROOM-02
+U3,1,MCP73831-2,"LiPo charger 4.20V",Microchip,MCP73831T-2ACI/OT,SOT-23-5,Package_TO_SOT_SMD:SOT-23-5
+U4,1,SHT40,"Temp/humidity sensor, I2C addr 0x44",Sensirion,SHT40-AD1B-R3,DFN-4 1.5x1.5,Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad
+J1,1,JST-PH 2p,"Battery socket, 2.0mm, SMD horizontal",JST,S2B-PH-SM4-TB(LF)(SN),SMD,Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+J2,1,USB-C,"USB-C receptacle, USB 2.0, 16-pin",HRO (Korean Hroparts),TYPE-C-31-M-12,SMD+THT tabs,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12
+J3,1,1x08 header,"2.54mm male pin header, display cable plugs on",Generic,1x08 2.54mm straight male header,THT,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical
+"SW1,SW2",2,Tactile,"Tactile switch SMD (RESET, BOOT)",C&K,PTS810 SJM 250 SMTR LFS,SMD 4.2x3.2,Button_Switch_SMD:SW_SPST_PTS810

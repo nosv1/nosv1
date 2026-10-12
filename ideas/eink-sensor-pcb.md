@@ -57,6 +57,17 @@ the sleep current is the AP2112's ~55 µA quiescent current.
    hanging over the board edge with no copper under it. Input/output capacitors tight to their pins.
 5. **Optional, decided against for now:** USB ESD protection (e.g. USBLC6-2), reverse-battery protection.
 
+## Parts and BOM (picked 10-12, at his request: "pick these parts rq")
+
+BOM, PCBWay-ready: [eink-sensor-pcb-bom.csv](eink-sensor-pcb-bom.csv). Remaining picks:
+J2 **HRO TYPE-C-31-M-12** (USB-C, very common); J3 **1x08 2.54 mm male header** (the display
+module's cable plugs onto it, and the order can be remapped); SW1/SW2 **C&K PTS810** SMD tactile.
+**Not verified:** stock at PCBWay, or that every KiCad footprint name matches his library exactly.
+PCBWay's quote will flag anything it can't source.
+
+Off-board, to buy: 100 mAh 1S LiPo, **protected**, JST-PH 2.0 plug (check red = pin 1 = +BATT);
+Waveshare 2.13" e-Paper **Module**; prototype kit = DFR0676 + an SHT40 breakout.
+
 ## Datasheets used
 
 AP2112 (Diodes Inc.), ESP32-C3-WROOM-02 (Espressif: peripheral schematic §9, pin table §3,
