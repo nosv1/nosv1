@@ -124,6 +124,14 @@ one test tells you if the idea works.
 5. LLM with built-in functions, then the code fallback and the question log.
 6. VR overlay last, if audio isn't enough. OpenKneeboard exists for OpenXR.
 
+## Config UI (10-13)
+
+He'd like a UI for configuring Soma (which calls are on, thresholds, voice, and so on). **He isn't
+interested in designing UI**, so it's scaffolding under PROFILE.md: Claude can build it once there's
+something to configure. **What's configurable, and the config format, are his calls**: that's
+Soma's design. Natural order: a plain config file first, then a UI on top that reads and writes
+it. Not before the caught call works.
+
 ## Prior art to know
 
 - iRacing's built-in spotter.
