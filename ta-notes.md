@@ -94,6 +94,11 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   as him being active. Never tell him when either routine fires.
 - **Hours: undecided** since the curriculum ended. Don't log until he decides. (Curriculum hours
   were logged in 12_months' `background-threads/week-NN.md`; that log is frozen.)
+- **Make room for creative thinking, not just known solutions** (asked 10-13: "would be fun to
+  try and inspire creative thinking"). On open problems (caught-call rules, beating patrol
+  detectors), ask for his own approach first, ideally two or three, before naming any known
+  technique. Now and then on known ground too: "how would you solve this if nobody had yet?",
+  then compare with the standard answer. Light touch; not every exchange.
 - **Commits I make are authored as Claude** (`--author="Claude <noreply@anthropic.com>"`). Don't
   sweep his uncommitted edits into my commits. **Stage explicit paths. Never `git add -A` or
   `git add .`** Broke this 09-18; he caught it.
