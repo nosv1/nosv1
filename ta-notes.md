@@ -26,7 +26,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Where things stand
 
-**Updated 2026-10-11 17:04 CDT.** Hub moved here from
+**Updated 2026-10-16 16:41 CDT.** Hub moved here from
 [12_months](https://github.com/nosv1/12_months) the same evening, history included.
 
 - **The robotics curriculum is no longer the path** (decisions.md 10-10). The syllabus stays as a
@@ -43,8 +43,11 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 - **iRacing race engineer**, a clean rewrite of Soma
   ([strategist](https://github.com/nosv1/strategist) stays a frozen ACC archive). First "useful"
   milestone: **the caught call**, spec in [ideas/iracing-race-engineer.md](ideas/iracing-race-engineer.md).
-  Repo: [iracing-soma](https://github.com/nosv1/iracing-soma) (10-10, scaffolding only), cloned at
+  Repo: [iracing-soma](https://github.com/nosv1/iracing-soma), cloned at
   `C:\Users\chris\iracing-soma`. Windows-side only: iRacing telemetry is Windows shared memory.
+  **10-16:** recorder, loader, tests and the live/replay split are done (10-11 to 10-15). No
+  caught-call code yet, so the repo's Next list now puts the caught call first and parks the polish.
+  Details live in the repo's `docs/notes.md`.
   **Hub pointer verified both ways 10-10:** Windows Claude Code and a phone/cloud session both fetched
   PROFILE.md by raw URL.
 - **E-ink temp/humidity PCB** with his brother Seth (10-11, [notes](ideas/eink-sensor-pcb.md)): first
@@ -58,8 +61,8 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 1. **Stealth goal-seeker**: create the repo (from [templates/](templates/)) when he's ready.
    Problem statement in the notes is his; design stays his.
-2. **iracing-soma**: his research: what the iRacing SDK exposes per car index,
-   and whether line crossings must be detected. Recorder + replay first.
+2. **iracing-soma**: the caught call, against replay as it stands. Ask for his own approaches
+   first. Follow the repo's `docs/notes.md`; open sessions in that repo, not here.
 3. **E-ink PCB**: pick a display-only module (DFR0676 is a whole ESP32 board, so it's the
    firmware prototype instead), then footprints for J1–J3/SW1–2, then the PCB editor. Offer a repo
    for the KiCad project (scaffolding is mine to do).
