@@ -37,9 +37,10 @@ what simulation leaves out.
 - **Frame sliders are bought, not installed.** He's unsure how much fairing or frame work they need.
   Install them before pushing harder in cone practice. A shop install is a fine answer.
 
-## Open question (his)
+## What he wants to see after a ride (answered 10-10; confirmed 10-17)
 
-What would he want to see after a ride? Lean angle, braking and acceleration g, speed over a GPS
-trace? That answer defines the first build.
+**Cornering efficiency**: lean angle against speed, and how close he runs to the limit, for
+cone practice. That defines the first build. (On 10-17 I asked this again as if it were open;
+he'd already answered it.)
 
 Design and parts are his. Flight-instructor terms.
