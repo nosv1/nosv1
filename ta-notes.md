@@ -26,8 +26,8 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Where things stand
 
-**Updated 2026-10-16 16:41 CDT.** Hub moved here from
-[12_months](https://github.com/nosv1/12_months) the same evening, history included.
+**Updated 2026-10-17 12:33 CDT** (repos checked; Otto and PCB untouched since 10-11). Hub moved here from
+[12_months](https://github.com/nosv1/12_months) on 10-10, history included.
 
 - **The robotics curriculum is no longer the path** (decisions.md 10-10). The syllabus stays as a
   skills map that projects tick off. Weeks 1–5 done (59.77 h logged); week 6 not started, not owed.
