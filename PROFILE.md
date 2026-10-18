@@ -93,6 +93,6 @@ Fuller history: [12_months/CLAUDE.md](https://github.com/nosv1/12_months/blob/de
 | [12_months](https://github.com/nosv1/12_months) | Robotics + AI curriculum, weeks 1–5 | paused 10-10; skills map, may return |
 | [strategist](https://github.com/nosv1/strategist) | ACC race engineer ("Soma"), Python | frozen archive; read for reference |
 | [iracing-soma](https://github.com/nosv1/iracing-soma) | Soma rewrite for iRacing: local LLM, spotter, audio first | active; milestone 1 = caught call — [notes](ideas/iracing-race-engineer.md) |
-| [otto-the-robot](https://github.com/nosv1/otto-the-robot) | **Otto**, a ROS 2 robot. First mission: reach a goal unseen by patrolling detectors | active 10-11 — [notes](ideas/stealth-goal-seeker.md) |
+| [otto-the-robot](https://github.com/nosv1/otto-the-robot) | **Otto**, a ROS 2 robot. First mission: red-team his own defense (patrol robots guard a goal; Otto tries to reach it unseen), C++ | active 10-11; setup done 10-17 — [notes](ideas/stealth-goal-seeker.md) |
 | — | E-ink temp/humidity PCB, with his brother Seth | active 10-11; schematic done, footprints in progress — [notes](ideas/eink-sensor-pcb.md) |
 | — | Motorcycle telemetry | idea — [notes](ideas/motorcycle-telemetry.md) |

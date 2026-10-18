@@ -26,7 +26,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Where things stand
 
-**Updated 2026-10-17 12:33 CDT** (repos checked; Otto and PCB untouched since 10-11). Hub moved here from
+**Updated 2026-10-17 23:34 CDT** (Otto session that evening, in its repo; PCB untouched since 10-11). Hub moved here from
 [12_months](https://github.com/nosv1/12_months) on 10-10, history included.
 
 - **The robotics curriculum is no longer the path** (decisions.md 10-10). The syllabus stays as a
@@ -38,8 +38,11 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   mentally."** When the weather turns, meet the itch with evidence of what's built.
 - **No lead project (10-11, his call):** "the lead is irrelevant." He works on whatever he's
   thinking about that day. Three active:
-- **Otto** (robot; first mission: stealth goal-seeker, [notes](ideas/stealth-goal-seeker.md)), active
-  10-11. Repo [otto-the-robot](https://github.com/nosv1/otto-the-robot) (10-11). Ticks off the 12_months skills map.
+- **Otto** (robot; first mission **reframed 10-17: red-team his own defense**, [notes](ideas/stealth-goal-seeker.md)),
+  active 10-11. Repo [otto-the-robot](https://github.com/nosv1/otto-the-robot). **10-17:** setup done (Jazzy,
+  Harmonic, Nav2 TB3 sim), C++, homework-style roadmap (`docs/roadmap.md`), package skeletons. Next is
+  HW1 (the blue patrol). Depot map blocked on a Gazebo Fuel outage. Details: the repo's `docs/notes.md`.
+  Ticks off the 12_months skills map.
 - **iRacing race engineer**, a clean rewrite of Soma
   ([strategist](https://github.com/nosv1/strategist) stays a frozen ACC archive). First "useful"
   milestone: **the caught call**, spec in [ideas/iracing-race-engineer.md](ideas/iracing-race-engineer.md).
@@ -59,8 +62,8 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Next session
 
-1. **Stealth goal-seeker**: create the repo (from [templates/](templates/)) when he's ready.
-   Problem statement in the notes is his; design stays his.
+1. **Otto**: HW1 in the repo's `docs/roadmap.md`. Give the real assignment, no warm-ups (10-17).
+   Open sessions in otto-the-robot. Retry the Fuel depot download first. Design stays his.
 2. **iracing-soma**: the caught call, against replay as it stands. Ask for his own approaches
    first. Follow the repo's `docs/notes.md`; open sessions in that repo, not here.
 3. **E-ink PCB**: pick a display-only module (DFR0676 is a whole ESP32 board, so it's the

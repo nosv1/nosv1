@@ -106,3 +106,10 @@ repo-convention change.
   robots." Projects run by interest, not rank. Don't frame one as the lead or nudge him back to it.
 - **Stealth goal-seeker gets its own repo**, not a curriculum week. Follows from 10-10 (each project
   its own repo; curriculum = skills map). The 2022 course repos stay as the archive.
+
+## 2026-10-17
+
+- **Otto's first mission is red-teaming his own defense** (his call, after dropping stealth for
+  being non-cooperative). Blue = defense, red = Otto. Scope 1v1/2v1. Details: the idea note.
+- **Otto is C++** (his call): "keeps me from lazy understanding old code." Don't suggest porting
+  back to Python for speed; C++ is the point.

@@ -214,3 +214,18 @@ Frame the projects as readiness: when the itch returns, there's public, tested w
   pull; meet it with evidence:** what's shipped, what's public and tested, what a posting would ask
   for that he can already show. Don't wait for him to raise it; when he mentions bad weather at
   work or a posting, that's the moment.
+
+## 2026-10-17 evening: Otto, what makes it worth doing
+
+- **Motivation, his own question:** did the class drive it, through comparison and shared
+  adversity? Partly, probably. What helped: a structure that rebuilds the parts it can (due dates
+  he sets, me as grader, a scoreboard) and saying honestly what can't be rebuilt.
+- **He looks for a justification before he commits to an exercise.** Three framings came and went
+  in about 20 minutes ("idk why i had to try and justify the exercise"). He landed when a framing
+  had **both stakes and cooperation**: red-teaming his own defense, something he enjoyed at work.
+  He also cares that the mindset is a good one, not just that it's fun.
+- **Deep end, not ground school.** "this is not an intro class - been there done that - i'd rather
+  get thrown in deep end, then swim up for air." Give the real assignment. Basic questions are
+  still fine ("you're not allowed to get annoyed by this tho"), so answer them straight.
+- **He acts between turns** (pushes, mkdirs). Check state before reporting it. Same pattern as
+  "verify before advising" above.

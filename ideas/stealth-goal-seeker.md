@@ -1,5 +1,8 @@
 # Stealth goal seeker (idea, 2026-10-10)
 
+> **Reframed 10-17: red-teaming his own defense.** See [the 10-17 section](#10-17-reframed-red-teaming-his-own-defense).
+> The history below is kept as it was.
+
 From his grad robotics class, about three years ago. Never finished because the class ended.
 
 ## The problem
@@ -19,7 +22,7 @@ From his grad robotics class, about three years ago. Never finished because the 
 
 ## Status
 
-**Active, 10-11.** Its own repo (not created yet), like every project; not a curriculum week. The
+**Active, 10-11.** Its own repo (created 10-11), like every project; not a curriculum week. The
 10-10 "in the curriculum" plan was overtaken the same evening when the curriculum stopped being the
 path. It ticks skills off the [12_months](https://github.com/nosv1/12_months) map instead (SLAM,
 planning, ROS 2 + Gazebo, controllers). The 2022 repos below stay as the archive; the new repo
@@ -60,3 +63,37 @@ Course: **ME5501 Robotics, Fall 2022**, ROS 2 (`rclpy`) + Gazebo + TurtleBot3.
 if the robot's capabilities grow into something else (his reason). Stealth is Otto's first mission.
 Repo: [otto-the-robot](https://github.com/nosv1/otto-the-robot) ("to at least be a little
 descriptive"; lowercase to match his other repos), created 10-11.
+
+## 10-17: reframed, red-teaming his own defense
+
+Evening session in the repo (WSL). Setup is done: ROS 2 Jazzy, Gazebo Harmonic, Nav2 TB3 sim all
+checked. Then he went through the story four times:
+
+1. **Stealth** (the original). Dropped: "the idea behind sneaking means no cooperation, and i
+   don't like that mindset."
+2. **Considerate store robot** (QuikTrip's floor cleaner is too slow for people moving at walking
+   speed). Dropped: "these aren't 'fun' problems, these are just chores." His point: "things are
+   high risk because there is no cooperation."
+3. **A game** (tag, capture the flag). "*but why* are we playing tag."
+4. **Red-teaming his own defense** (kept; he enjoyed red-teaming at work). He builds both sides:
+   the patrol is his defense, Otto is the attacker built to find its holes, and each attack that
+   works hardens the defense. Has both the stakes and the cooperation.
+
+**Decided 10-17 (all his calls unless marked):**
+
+- **Colors follow security convention:** blue = the patrol (his defense), red = Otto (the attacker).
+  This flips the original. "blue is me... BUT NO that's not nice of me, UNLESS the actual objective
+  is for me to design an attacker on my own defense."
+- **Scope: 1v1 or 2v1.** One Otto, always. The scout approach is parked.
+- **Sensing: 6 m for both sides** (sim lidar is 20 m, real LDS-01 about 3.5 m).
+- **Map:** more complex than the Nav2 sandbox (depot or warehouse), for fun. He's fine editing robot
+  models for speed and sensing. Blocked 10-17 by a Gazebo Fuel 502 outage.
+- **C++** for the nodes: "keeps me from lazy understanding old code." The 2022 Python is a
+  reference to port.
+- **Packages** (names are Claude's, at his request): `otto` (nodes: `blue/`, `red/`, `debrief/`) and
+  `otto_sim` (assets). MIT license ("no liabilities, ships as is").
+- **Roadmap as homework** with Mission: Impossible briefs and a scoreboard (attack × defense)
+  standing in for classmates. It lives in the repo: `docs/roadmap.md`.
+
+Not settled: what makes the cone a cone when both sides sense the same (HW2), and what "caught"
+means (HW3).
