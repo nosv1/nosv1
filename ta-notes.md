@@ -26,7 +26,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Where things stand
 
-**Updated 2026-10-17 23:34 CDT** (Otto session that evening, in its repo; PCB untouched since 10-11). Hub moved here from
+**Updated 2026-10-21 18:17 CDT** (iracing-soma catch-up from its repo; Otto as of 10-17; PCB untouched since 10-11). Hub moved here from
 [12_months](https://github.com/nosv1/12_months) on 10-10, history included.
 
 - **The robotics curriculum is no longer the path** (decisions.md 10-10). The syllabus stays as a
@@ -48,9 +48,12 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   milestone: **the caught call**, spec in [ideas/iracing-race-engineer.md](ideas/iracing-race-engineer.md).
   Repo: [iracing-soma](https://github.com/nosv1/iracing-soma), cloned at
   `C:\Users\chris\iracing-soma`. Windows-side only: iRacing telemetry is Windows shared memory.
-  **10-16:** recorder, loader, tests and the live/replay split are done (10-11 to 10-15). No
-  caught-call code yet, so the repo's Next list now puts the caught call first and parks the polish.
-  Details live in the repo's `docs/notes.md`.
+  **10-16:** recorder, loader, tests and the live/replay split are done (10-11 to 10-15).
+  **10-18:** the caught call speaks and was right on the 10-16 race. **10-19:** first live race,
+  silent (server switch changed `PlayerCarIdx`; lap-count guard); both fixed by him. **10-20:**
+  event facts (`EventFact` dataclasses), last pushed commit `b1cd935`. **Flags (10-21, his
+  memory):** not in the repo or its notes; likely uncommitted on Windows. `SessionFlags` is a
+  bitfield, so the check is a bitwise AND, not `==`. Details live in the repo's `docs/notes.md`.
   **Hub pointer verified both ways 10-10:** Windows Claude Code and a phone/cloud session both fetched
   PROFILE.md by raw URL.
 - **E-ink temp/humidity PCB** with his brother Seth (10-11, [notes](ideas/eink-sensor-pcb.md)): first
