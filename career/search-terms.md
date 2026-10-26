@@ -95,8 +95,17 @@ tools. Not in Apps Script or any current project.
   MySQL (`mysql.connector`). Bot state, guilds, events, custom commands, and racing-league data.
 - **[sra_data](https://github.com/nosv1/sra_data)** (2025): parses ACC race results into MySQL tables
   he designed, with composite primary keys (session, server, car, driver) and per-driver lap
-  percentiles and pace vs. field. Later moved to **Neo4j / Cypher** (`MERGE`, `MATCH`), which
-  [sra-insights](https://github.com/nosv1/sra-insights) reads (through 2026-05).
+  percentiles and pace vs. field.
+- **Neo4j / Cypher, committed (2025-03 to 04, and on):** sra_data has 15 `.cypher` scripts
+  (`neo4j_scripts/cyphers/`) plus Python loaders. The graph is sessions, laps, cars, drivers, and
+  team-series seasons, rounds, and weekends. Example: `races/set_car_avg_middle_half_lap.cypher`
+  takes each car's valid race laps, keeps the interquartile middle half, averages it, and drops
+  cars that ran under 75% of the winner's laps. That's real pace analysis, not CRUD. The
+  [sra-insights](https://github.com/nosv1/sra-insights) server queries the graph (28 `MATCH`es
+  behind 17 endpoints, through 2026-05). Uses `MATCH`/`MERGE`, `ON CREATE SET`, chained `WITH`
+  pipelines, `COLLECT`, `UNWIND`, list comprehensions, `REDUCE`. **He said it was fun to learn
+  (10-26)**: same pattern as Rust in GTALens, a tool learned because a project he cared about
+  needed it.
 - **Used:** schema design, `INSERT ... ON DUPLICATE KEY UPDATE` upserts, `INNER` and `LEFT JOIN`
   (including a left-join anti-join delete), derived-table and `NOT IN` subqueries, `GROUP BY`,
   `DISTINCT`, `ORDER BY ... LIMIT`, commits.
