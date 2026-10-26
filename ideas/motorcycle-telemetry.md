@@ -4,7 +4,7 @@ His bike: **2025 Honda CBR500R**. He thinks of it as a test platform, even off-t
 with sensors, logging rides.
 
 **10-26: bought a GSX-R 750 and kept the CBR.** The GSX-R is the commuter now. The CBR may become
-a track bike, which makes it a proper test platform rather than his daily ride. "Interesting, useful or not, probably not."
+a track bike (still a maybe), which makes it a proper test platform rather than his daily ride. "Interesting, useful or not, probably not."
 
 ## Why it matters
 
