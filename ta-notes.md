@@ -82,18 +82,20 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   left. No lead; don't rank them (10-11).
   He asked (09-26) for the remaining-work picture up front, not as a surprise at the end.
 - **Bug him about the career thread, on purpose** (asked 10-10: "prob a good idea to bug me about
-  this every once in a while, I turn 30 eventually"). **A self-rescheduling cloud routine, "career
-  check-in"**, pushes one question to his phone at random 2–5 week intervals in his free hours, logs
-  it, and picks its own next time (verified 10-10: cloud sessions can push and update routines).
-  **Never tell him when it fires**; he asked not to see the schedule. If it reports it couldn't
-  reschedule, fix it at claude.ai/code/routines. In sessions too: human-feeling intervals: roughly every few weeks, irregular, at a natural opening (weather,
+  this every once in a while, I turn 30 eventually"). **A cloud routine, "career check-in"**,
+  pushes one question to his phone at random 2–5 week intervals in his free hours and logs it.
+  Since 10-26 it wakes on a fixed schedule and rolls dice against the last date in the Check-ins
+  log, so it never reschedules itself (the 10-10 version couldn't: agents can't edit routines made
+  through the API, and it died after its first question). An in-session ask logged there resets
+  its clock too. **Never tell him when it fires**; he asked not to see the schedule. If a run
+  reports a failure, fix it at claude.ai/code/routines. In sessions too: human-feeling intervals: roughly every few weeks, irregular, at a natural opening (weather,
   a bad work day, a project milestone worth putting on a résumé), never as a fixed monthly ritual.
   One short question, not a lecture. E.g. "Any word from your Garmin contact?", "Want me to rerun
   the searches?", "SQL started?" Log the date in [career/search-terms.md](career/search-terms.md).
   **Last asked: 2026-10-26.** His framing: I'm a tool for his projects and career outlook, not a
   friend; keep it that way.
 - **"Quiet check" routine** (his idea, 10-10: "you can be useful even if I don't open you"). It
-  wakes every few days at random, and if there's been no activity across his repos for 7+ days, it
+  wakes on a fixed schedule (since 10-15, same rescheduling problem), and if there's been no activity across his repos for 7+ days, it
   pushes one line ("Quiet for N days. Break, or something stuck?"), at most once a week. Log:
   [ta-notes/pings.md](ta-notes/pings.md). **Both routines commit as `Claude (routine)`**, which
   the quiet check ignores. Interactive sessions keep committing as plain `Claude` so they count
