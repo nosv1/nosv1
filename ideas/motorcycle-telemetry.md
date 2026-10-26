@@ -1,7 +1,10 @@
 # Motorcycle telemetry (idea, 2026-10-10)
 
 His bike: **2025 Honda CBR500R**. He thinks of it as a test platform, even off-track. Idea: a Pi
-with sensors, logging rides. "Interesting, useful or not, probably not."
+with sensors, logging rides.
+
+**10-26: bought a GSX-R 750 and kept the CBR.** The GSX-R is the commuter now. The CBR may become
+a track bike, which makes it a proper test platform rather than his daily ride. "Interesting, useful or not, probably not."
 
 ## Why it matters
 
