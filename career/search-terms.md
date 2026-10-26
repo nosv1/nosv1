@@ -102,3 +102,7 @@ Sources:
 [Operations Analyst salary, KC MO](https://www.payscale.com/research/US/Job=Operations_Analyst/Salary/a81b2a1d/Kansas-City-MO) ·
 [Track Titan raises $5M](https://itbrief.news/story/track-titan-raises-usd-5m-to-power-ai-racing-coaching) ·
 [Coach Dave Academy](https://coachdaveacademy.com/?p=98209)
+
+## Check-ins
+
+- 2026-10-26 (CT): Career check-in: Most analyst postings I pulled want SQL plus a BI tool. Have you started either, or is your Apps Script work already covering some of it?

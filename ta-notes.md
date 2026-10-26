@@ -90,7 +90,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   a bad work day, a project milestone worth putting on a résumé), never as a fixed monthly ritual.
   One short question, not a lecture. E.g. "Any word from your Garmin contact?", "Want me to rerun
   the searches?", "SQL started?" Log the date in [career/search-terms.md](career/search-terms.md).
-  **Last asked: 2026-10-10.** His framing: I'm a tool for his projects and career outlook, not a
+  **Last asked: 2026-10-26.** His framing: I'm a tool for his projects and career outlook, not a
   friend; keep it that way.
 - **"Quiet check" routine** (his idea, 10-10: "you can be useful even if I don't open you"). It
   wakes every few days at random, and if there's been no activity across his repos for 7+ days, it
