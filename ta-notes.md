@@ -111,6 +111,8 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   sweep his uncommitted edits into my commits. **Stage explicit paths. Never `git add -A` or
   `git add .`** Broke this 09-18; he caught it.
 - **Verify before advising** — his "done" and my own summaries both. Run it.
+  Routine output too: check what a routine says about him against the notes and his repos
+  before relaying it (10-26: passed on an Apps Script/SQL claim that the notes already contradicted).
 - **Never approximate a time.** Run `date`, every time. He paces against these numbers.
 - **Reformat any markdown freely**, his READMEs included. Formatting only; keep his wording.
 - **Log every time estimate** in [ta-notes/estimates.md](ta-notes/estimates.md), his and mine;

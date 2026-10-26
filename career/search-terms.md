@@ -82,7 +82,29 @@ postings make the winter decision easier than a blank page.
 - **KC operations analyst:** ~$51–75k (Payscale avg ~$61k, KC MO).
 - **Sim-racing startups** (Track Titan raised $5M; Coach Dave pays sim engineers): no data roles
   found. Watch.
-- **Recurring gap across analyst postings: SQL and a BI tool.** Cheap to close.
+- **Recurring ask across analyst postings: SQL and a BI tool.** SQL is not a gap (see below); a
+  BI tool is.
+
+### SQL: what he already has (reviewed 10-26 from his public repos)
+
+He has written MySQL against his own self-hosted server since 2021, in Discord bots and race data
+tools. Not in Apps Script or any current project.
+
+- **[MoBot](https://github.com/nosv1/MoBot)** (2021–22), **[Phyner](https://github.com/nosv1/Phyner)**
+  (2022–23), **[GTALens](https://github.com/nosv1/GTALens)** (2021–22): Discord bots backed by
+  MySQL (`mysql.connector`). Bot state, guilds, events, custom commands, and racing-league data.
+- **[sra_data](https://github.com/nosv1/sra_data)** (2025): parses ACC race results into MySQL tables
+  he designed, with composite primary keys (session, server, car, driver) and per-driver lap
+  percentiles and pace vs. field. Later moved to **Neo4j / Cypher** (`MERGE`, `MATCH`), which
+  [sra-insights](https://github.com/nosv1/sra-insights) reads (through 2026-05).
+- **Used:** schema design, `INSERT ... ON DUPLICATE KEY UPDATE` upserts, `INNER` and `LEFT JOIN`
+  (including a left-join anti-join delete), derived-table and `NOT IN` subqueries, `GROUP BY`,
+  `DISTINCT`, `ORDER BY ... LIMIT`, commits.
+- **Not found:** window functions (`OVER (...)`), CTEs (`WITH`), parameterized queries. Every
+  query is an f-string with hand-rolled quote escaping. Analyst interviews lean hard on window
+  functions and CTEs, and any dev interview would flag the injection risk. Those three are the
+  real SQL gap, and they're small.
+- **Power BI / Tableau:** no evidence. That's the actual gap.
 
 Sources:
 [Fluid Jobs — race team](https://fluidjobs.com/jobs/race-team) ·
@@ -106,3 +128,5 @@ Sources:
 ## Check-ins
 
 - 2026-10-26 (CT): Career check-in: Most analyst postings I pulled want SQL plus a BI tool. Have you started either, or is your Apps Script work already covering some of it?
+  - **His answer (10-26):** neither is part of Apps Script or any current project; his SQL is from
+    the Discord bot days. Reviewed and written up above.
