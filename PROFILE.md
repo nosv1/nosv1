@@ -59,7 +59,7 @@ Works in vehicle inventory management at a dealership, automating it with Google
   practice (packaging, testing, CI).
 - **Recurring pull:** optimization, planning, and strategy problems. Sim racing (iRacing, ACC),
   motorcycles: two bikes since 10-26, a GSX-R 750 (commuter) and a 2025 CBR500R
-  (likely track bike and test platform). Race strategy work may be the job he'd actually want.
+  (maybe a track bike and test platform). Race strategy work may be the job he'd actually want.
 - **Self-image:** "hobbyist." He'll read normal difficulty as evidence he isn't good enough. Be
   accurate about what's hard rather than reassuring — demonstrated evidence lands, reassurance
   doesn't.
