@@ -26,7 +26,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Where things stand
 
-**Updated 2026-10-17 23:34 CDT** (Otto session that evening, in its repo; PCB untouched since 10-11). Hub moved here from
+**Updated 2026-10-26 19:00 CDT** from the repos' own notes (Soma 10-18 to 21, Otto 10-23; PCB untouched since 10-11). Hub moved here from
 [12_months](https://github.com/nosv1/12_months) on 10-10, history included.
 
 - **The robotics curriculum is no longer the path** (decisions.md 10-10). The syllabus stays as a
@@ -40,16 +40,18 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   thinking about that day. Three active:
 - **Otto** (robot; first mission **reframed 10-17: red-team his own defense**, [notes](ideas/stealth-goal-seeker.md)),
   active 10-11. Repo [otto-the-robot](https://github.com/nosv1/otto-the-robot). **10-17:** setup done (Jazzy,
-  Harmonic, Nav2 TB3 sim), C++, homework-style roadmap (`docs/roadmap.md`), package skeletons. Next is
-  HW1 (the blue patrol). Depot map blocked on a Gazebo Fuel outage. Details: the repo's `docs/notes.md`.
+  Harmonic, Nav2 TB3 sim), C++, homework-style roadmap (`docs/roadmap.md`), package skeletons.
+  **10-23:** HW1 steps 1–2 (twist publisher + odom subscriber, his). Depot model cached 10-20.
+  Details: the repo's `docs/notes.md`.
   Ticks off the 12_months skills map.
 - **iRacing race engineer**, a clean rewrite of Soma
   ([strategist](https://github.com/nosv1/strategist) stays a frozen ACC archive). First "useful"
   milestone: **the caught call**, spec in [ideas/iracing-race-engineer.md](ideas/iracing-race-engineer.md).
   Repo: [iracing-soma](https://github.com/nosv1/iracing-soma), cloned at
   `C:\Users\chris\iracing-soma`. Windows-side only: iRacing telemetry is Windows shared memory.
-  **10-16:** recorder, loader, tests and the live/replay split are done (10-11 to 10-15). No
-  caught-call code yet, so the repo's Next list now puts the caught call first and parks the polish.
+  **Caught call works (10-18) and spoke live in two races (10-20).** Not "done": bad calls in
+  race 1 (caught by 60.9 s / 7.4 s) still unexplained. Also 10-19 to 21: session switches, race-start
+  fix, lap times from his own crossings, flags started. Next per the repo: flags, then the outliers.
   Details live in the repo's `docs/notes.md`.
   **Hub pointer verified both ways 10-10:** Windows Claude Code and a phone/cloud session both fetched
   PROFILE.md by raw URL.
@@ -64,7 +66,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 1. **Otto**: HW1 in the repo's `docs/roadmap.md`. Give the real assignment, no warm-ups (10-17).
    Open sessions in otto-the-robot. Retry the Fuel depot download first. Design stays his.
-2. **iracing-soma**: the caught call, against replay as it stands. Ask for his own approaches
+2. **iracing-soma**: flags, then the 60.9 s / 7.4 s outlier calls. Ask for his own approaches
    first. Follow the repo's `docs/notes.md`; open sessions in that repo, not here.
 3. **E-ink PCB**: pick a display-only module (DFR0676 is a whole ESP32 board, so it's the
    firmware prototype instead), then footprints for J1–J3/SW1–2, then the PCB editor. Offer a repo
