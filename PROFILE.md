@@ -78,6 +78,8 @@ Fuller history: [12_months/CLAUDE.md](https://github.com/nosv1/12_months/blob/de
 - **On voice / phone: keep replies short.**
 - **"Feels gross" from him is usually right** — ask him to name it.
 - **One-word replies mean he's tired:** park decisions.
+- **Notes and logs go straight to `main`**, no branch or PR (his call, 10-31). Code still goes on
+  a branch for review.
 - **Commits I make are authored as Claude** (`--author="Claude <noreply@anthropic.com>"`), staging
   explicit paths only — never `git add -A` or `git add .`.
 - **Tool-independent by choice:** GitHub + Markdown, not Claude-specific features. Notes live in

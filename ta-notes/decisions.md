@@ -113,3 +113,8 @@ repo-convention change.
   being non-cooperative). Blue = defense, red = Otto. Scope 1v1/2v1. Details: the idea note.
 - **Otto is C++** (his call): "keeps me from lazy understanding old code." Don't suggest porting
   back to Python for speed; C++ is the point.
+
+## 2026-10-31
+
+- **Non-code changes go straight to `main`** (his call): notes, logs, profile edits. No branch, no
+  merge. Code still goes on a branch so it can be reviewed.
