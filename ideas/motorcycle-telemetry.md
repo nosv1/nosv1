@@ -1,6 +1,6 @@
 # Motorcycle telemetry (idea, 2026-10-10)
 
-His bike: **2025 Honda CBR500R**. He thinks of it as a test platform, even off-track. Idea: a Pi
+His bike: **2025 Honda CBR500R**; added a **Suzuki GSX-R750** in 10-2026 (lean-angle data is the obvious use). He thinks of it as a test platform, even off-track. Idea: a Pi
 with sensors, logging rides. "Interesting, useful or not, probably not."
 
 ## Why it matters

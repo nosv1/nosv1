@@ -58,7 +58,7 @@ Works in vehicle inventory management at a dealership, automating it with Google
 - **Genuinely thin:** C++, memory, threading, sockets, Linux internals, software engineering
   practice (packaging, testing, CI).
 - **Recurring pull:** optimization, planning, and strategy problems. Sim racing (iRacing, ACC),
-  motorcycles (2025 CBR500R). Race strategy work may be the job he'd actually want.
+  motorcycles (2025 CBR500R; **Suzuki GSX-R750**, new 10-2026). Race strategy work may be the job he'd actually want.
 - **Self-image:** "hobbyist." He'll read normal difficulty as evidence he isn't good enough. Be
   accurate about what's hard rather than reassuring — demonstrated evidence lands, reassurance
   doesn't.
