@@ -67,6 +67,9 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   - **Family features:** sync across devices with the family PIN, a star shop, and parent tools.
   - **Where to look:** the repo's CLAUDE.md (how to test and deploy) and BACKLOG.md (parked ideas:
     quiz alerts to parents' phones, drawing break).
+- **YouTube quiz app** (idea, 11-06, "just build it" mode): pick videos via a Study playlist, a
+  later "what did you learn?" conversation, reminders on missed topics only. Web app, free for him.
+  [Notes](ideas/youtube-quiz.md). Next: test Gemini on 3 of his videos.
 - Other ideas: [motorcycle telemetry](ideas/motorcycle-telemetry.md). Orbital path planning was active 10-07;
   not raised since. Bowling app parked — don't raise.
 - **Off days are real.** He ran ~19 h/week for 22 days straight into October; enthusiasm dropped.

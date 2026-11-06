@@ -81,3 +81,16 @@ Claude's read:
 - Reminders need push notifications, so this points to a phone app (an installed iPhone web app
   can push), not an extension. That puts transcripts back on a server; test Gemini with YouTube URLs.
 - Risk: days between watching and talking may leave too little to recall. Watch for it.
+
+## Decided (11-06)
+
+- **Web app first.** Undecided on the $99/yr Apple developer fee, so no native app.
+- **Free for him.** Others bring their own AI key.
+- Reminders: web push from the installed home-screen web app (no Apple fee); email as fallback.
+
+Raised by Claude, not yet decided:
+- Voice: start with the iPhone keyboard's dictation mic in a text box, no speech code at all.
+- Where the level-tailoring fits: the opening "what did you learn?" may reveal it naturally.
+- Videos with no captions, or very long ones.
+- First step unchanged: check that Gemini can read 3 of his videos (the absolute zero one
+  included) on the free tier.
