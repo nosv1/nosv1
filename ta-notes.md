@@ -69,7 +69,8 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
     quiz alerts to parents' phones, drawing break).
 - **YouTube quiz app** (idea, 11-06, "just build it" mode): pick videos via a Study playlist, a
   later "what did you learn?" conversation, reminders on missed topics only. Web app, free for him.
-  [Notes](ideas/youtube-quiz.md). Next: test Gemini on 3 of his videos.
+  [Notes](ideas/youtube-quiz.md). Repo [claudes-afterwatch](https://github.com/nosv1/claudes-afterwatch);
+  cloud environment "afterwatch". Next: he adds a Gemini key (from a computer), then test 3 videos.
 - Other ideas: [motorcycle telemetry](ideas/motorcycle-telemetry.md). Orbital path planning was active 10-07;
   not raised since. Bowling app parked — don't raise.
 - **Off days are real.** He ran ~19 h/week for 22 days straight into October; enthusiasm dropped.
