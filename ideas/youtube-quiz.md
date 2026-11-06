@@ -96,3 +96,5 @@ Raised by Claude, not yet decided:
   included) on the free tier.
 - **iPhone** (confirmed 11-06). Push needs the app added to the home screen (iOS 16.4+). iPhone
   web apps can't appear in the share sheet, so the Study playlist is the way videos get in.
+- **Repo: [claudes-afterwatch](https://github.com/nosv1/claudes-afterwatch)** (made by him 11-06). If it goes
+  private, host on Cloudflare Pages, not GitHub Pages (Pages on a private repo needs a paid plan).
