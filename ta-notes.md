@@ -85,7 +85,9 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 3. **E-ink PCB**: pick a display-only module (DFR0676 is a whole ESP32 board, so it's the
    firmware prototype instead), then footprints for J1–J3/SW1–2, then the PCB editor. Offer a repo
    for the KiCad project (scaffolding is mine to do).
-4. **Still undecided from 10-10** (park unless he raises them): hours logging after the curriculum
+4. **afterwatch**: open sessions in [claudes-afterwatch](https://github.com/nosv1/claudes-afterwatch) and
+   follow its `docs/notes.md` handoff (Gemini key from a PC, then the 3-video test). "Just build it."
+5. **Still undecided from 10-10** (park unless he raises them): hours logging after the curriculum
    (proposed: log project hours, all projects); open caught-call questions (ahead by position or on
    track; name or position in the call); the milestone's "done" (proposed: spoken, a real race,
    left on the whole time, calls right).

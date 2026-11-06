@@ -96,6 +96,7 @@ Fuller history: [12_months/CLAUDE.md](https://github.com/nosv1/12_months/blob/de
 | [strategist](https://github.com/nosv1/strategist) | ACC race engineer ("Soma"), Python | frozen archive; read for reference |
 | [iracing-soma](https://github.com/nosv1/iracing-soma) | Soma rewrite for iRacing: local LLM, spotter, audio first | active; milestone 1 = caught call — [notes](ideas/iracing-race-engineer.md) |
 | [claude-spells](https://github.com/nosv1/claude-spells) | **SpellIt!**, a family spelling app (grades 1–8 + Adult), static site on GitHub Pages + a free Cloudflare Worker | active 11-02; **"just build it"** (Claude writes it), pushes straight to main |
+| [claudes-afterwatch](https://github.com/nosv1/claudes-afterwatch) | **afterwatch**, learn from YouTube videos: a later "what did you learn?" conversation, reminders on missed topics. Web app, iPhone | started 11-06; **"just build it"**; blocked on a Gemini key — [notes](ideas/youtube-quiz.md) |
 | [otto-the-robot](https://github.com/nosv1/otto-the-robot) | **Otto**, a ROS 2 robot. First mission: red-team his own defense (patrol robots guard a goal; Otto tries to reach it unseen), C++ | active 10-11; setup done 10-17 — [notes](ideas/stealth-goal-seeker.md) |
 | — | E-ink temp/humidity PCB, with his brother Seth | active 10-11; schematic done, footprints in progress — [notes](ideas/eink-sensor-pcb.md) |
 | — | Motorcycle telemetry | idea — [notes](ideas/motorcycle-telemetry.md) |
