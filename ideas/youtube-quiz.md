@@ -32,3 +32,20 @@ content is retained instead of just watched.
 - iPhone or Android (share-to-app works differently)?
 - How to set the viewer's level: ask up front, a quick pre-check, or adapt from answers?
 - First step proposed: prove transcript/video access on 3 of his real videos before any UI.
+
+## Market scan (11-06, search snippets only, not verified on the live listings)
+
+Crowded. He raised "extension instead of an app."
+
+- **Chrome extensions:** YouTube Quiz Generator (pauses at intervals, bring-your-own key), LearnTube
+  AI (pauses at topic breaks, Chrome on-device AI or Gemini), YouTube ReCapQuiz (Quiz button in
+  the player), Ulearn (quiz when the video ends, spaced-repetition dashboard), Quizify, Yoututor,
+  QuizFirst (quiz *before* watching).
+- **Phone/web apps:** Flica, FlashCardify, Knotic, NoteTube (SM-2), QuizRise, anki-decks.com.
+- **NotebookLM:** takes YouTube links; quizzes and flashcards, easy/medium/hard.
+- **Gap seen so far:** difficulty settings exist, but nothing found that tailors to what *this*
+  viewer already knows. That's his idea's angle, if any.
+- **Extension upside:** runs on youtube.com in his own browser, so it can read captions from the
+  page, which avoids the transcript problem. Downside: desktop only; no phone or TV.
+- Proposed: use two existing ones for a week (one extension with spaced repetition, plus
+  NotebookLM) and write down what's missing. That list is the spec.
