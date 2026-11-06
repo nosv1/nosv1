@@ -49,3 +49,16 @@ Crowded. He raised "extension instead of an app."
   page, which avoids the transcript problem. Downside: desktop only; no phone or TV.
 - Proposed: use two existing ones for a week (one extension with spaced repetition, plus
   NotebookLM) and write down what's missing. That list is the spec.
+
+## The real problem: mood and failing (11-06)
+
+His words: being in the mood to learn from a video is the hard part. Days later he expects not to
+know the answers, and then thinks "screw it, let me enjoy my video." He remembers *where* he saw
+something, not what it said.
+
+- Claude: failing to recall, then seeing the answer, is what makes it stick, so being wrong is
+  the method working. It still *feels* like failing, and that feeling is the design problem.
+- Most videos are just for fun. Opt in per video ("learn this one"), don't quiz everything.
+- Knowing where to look is fine for trivia. It isn't for things he wants to think with.
+- Idea floated: explain it back by voice instead of a quiz. Asked for his approach first.
+- Example video: Veritasium on reaching absolute zero.
