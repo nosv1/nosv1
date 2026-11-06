@@ -62,3 +62,22 @@ something, not what it said.
 - Knowing where to look is fine for trivia. It isn't for things he wants to think with.
 - Idea floated: explain it back by voice instead of a quiz. Asked for his approach first.
 - Example video: Veritasium on reaching absolute zero.
+
+## His flow (11-06)
+
+1. See a video, add it to Watch Later as usual.
+2. While watching, if it's worth learning, add it to a **Study playlist**. Choosing changes how
+   he pays attention, but the video stays enjoyable: no questions right after.
+3. Later, when he's in the mood: the app asks "what did you learn about this video?" A
+   conversation, not a quiz.
+4. Topics he missed are noted. Later he's reminded about **only those topics**.
+5. Constraint: don't spend more time than needed on the video.
+
+Claude's read:
+- His answer to "what makes being wrong OK" is built in: no score, just topics to revisit.
+- Starting with "what did you learn?" is free recall, the strongest kind. The AI then asks about
+  what he left out.
+- A missed topic gets a 2-sentence explanation on the spot, plus a timestamp link. No rewatching.
+- Reminders need push notifications, so this points to a phone app (an installed iPhone web app
+  can push), not an extension. That puts transcripts back on a server; test Gemini with YouTube URLs.
+- Risk: days between watching and talking may leave too little to recall. Watch for it.
