@@ -94,3 +94,5 @@ Raised by Claude, not yet decided:
 - Videos with no captions, or very long ones.
 - First step unchanged: check that Gemini can read 3 of his videos (the absolute zero one
   included) on the free tier.
+- **iPhone** (confirmed 11-06). Push needs the app added to the home screen (iOS 16.4+). iPhone
+  web apps can't appear in the share sheet, so the Study playlist is the way videos get in.
