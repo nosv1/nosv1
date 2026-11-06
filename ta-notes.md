@@ -57,6 +57,16 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   PROFILE.md by raw URL.
 - **E-ink temp/humidity PCB** with his brother Seth (10-11, [notes](ideas/eink-sensor-pcb.md)): first
   PCB, KiCad, PCBWay assembles. Schematic done (ERC 0/0), footprints part-way. Not in a repo yet.
+- **SpellIt!** ([claude-spells](https://github.com/nosv1/claude-spells), started 11-02): a spelling app
+  for the family's 2nd and 6th graders (and him), live at `nosv1.github.io/claude-spells`. **His call:
+  "just build it"**, so Claude writes the code (a family tool, not a skill project), and since 11-05
+  pushes straight to main. **It must stay free** (no paid services). Built 11-02 to 11-05:
+  - **Quizzes:** typing with live green/red letters, or handwriting on an iPad pad.
+  - **Word bank and audio:** 40–60 words a level with sentences and meanings; natural voices from
+    Workers AI.
+  - **Family features:** sync across devices with the family PIN, a star shop, and parent tools.
+  - **Where to look:** the repo's CLAUDE.md (how to test and deploy) and BACKLOG.md (parked ideas:
+    quiz alerts to parents' phones, drawing break).
 - Other ideas: [motorcycle telemetry](ideas/motorcycle-telemetry.md). Orbital path planning was active 10-07;
   not raised since. Bowling app parked — don't raise.
 - **Off days are real.** He ran ~19 h/week for 22 days straight into October; enthusiasm dropped.
