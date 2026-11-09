@@ -26,7 +26,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Where things stand
 
-**Updated 2026-10-26 19:00 CDT** from the repos' own notes (Soma 10-18 to 21, Otto 10-23; PCB untouched since 10-11). Hub moved here from
+**Updated 2026-11-08 21:29 CST** (last full pass 10-26 19:00 CDT) from the repos' own notes (Soma 10-18 to 21, Otto 10-23; PCB untouched since 10-11). Hub moved here from
 [12_months](https://github.com/nosv1/12_months) on 10-10, history included.
 
 - **The robotics curriculum is no longer the path** (decisions.md 10-10). The syllabus stays as a
@@ -53,6 +53,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   race 1 (caught by 60.9 s / 7.4 s) still unexplained. Also 10-19 to 21: session switches, race-start
   fix, lap times from his own crossings, flags started. Next per the repo: flags, then the outliers.
   Details live in the repo's `docs/notes.md`.
+  **Watching his team race (11-08):** he liked [Enduro Manager](https://enduromanager.com/); not yet tested while spectating.
   **Hub pointer verified both ways 10-10:** Windows Claude Code and a phone/cloud session both fetched
   PROFILE.md by raw URL.
 - **E-ink temp/humidity PCB** with his brother Seth (10-11, [notes](ideas/eink-sensor-pcb.md)): first
