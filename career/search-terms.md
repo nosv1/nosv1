@@ -139,3 +139,4 @@ Sources:
 - 2026-10-26 (CT): Career check-in: Most analyst postings I pulled want SQL plus a BI tool. Have you started either, or is your Apps Script work already covering some of it?
   - **His answer (10-26):** neither is part of Apps Script or any current project; his SQL is from
     the Discord bot days. Reviewed and written up above.
+- 2026-11-10 (CT, in session; he raised it): What raise would it take to trade away "no expectations"?
