@@ -82,7 +82,38 @@ postings make the winter decision easier than a blank page.
 - **KC operations analyst:** ~$51–75k (Payscale avg ~$61k, KC MO).
 - **Sim-racing startups** (Track Titan raised $5M; Coach Dave pays sim engineers): no data roles
   found. Watch.
-- **Recurring gap across analyst postings: SQL and a BI tool.** Cheap to close.
+- **Recurring ask across analyst postings: SQL and a BI tool.** SQL is not a gap (see below); a
+  BI tool is.
+
+### SQL: what he already has (reviewed 10-26 from his public repos)
+
+He has written MySQL against his own self-hosted server since 2021, in Discord bots and race data
+tools. Not in Apps Script or any current project.
+
+- **[MoBot](https://github.com/nosv1/MoBot)** (2021–22), **[Phyner](https://github.com/nosv1/Phyner)**
+  (2022–23), **[GTALens](https://github.com/nosv1/GTALens)** (2021–22): Discord bots backed by
+  MySQL (`mysql.connector`). Bot state, guilds, events, custom commands, and racing-league data.
+- **[sra_data](https://github.com/nosv1/sra_data)** (2025): parses ACC race results into MySQL tables
+  he designed, with composite primary keys (session, server, car, driver) and per-driver lap
+  percentiles and pace vs. field.
+- **Neo4j / Cypher, committed (2025-03 to 04, and on):** sra_data has 15 `.cypher` scripts
+  (`neo4j_scripts/cyphers/`) plus Python loaders. The graph is sessions, laps, cars, drivers, and
+  team-series seasons, rounds, and weekends. Example: `races/set_car_avg_middle_half_lap.cypher`
+  takes each car's valid race laps, keeps the interquartile middle half, averages it, and drops
+  cars that ran under 75% of the winner's laps. That's real pace analysis, not CRUD. The
+  [sra-insights](https://github.com/nosv1/sra-insights) server queries the graph (28 `MATCH`es
+  behind 17 endpoints, through 2026-05). Uses `MATCH`/`MERGE`, `ON CREATE SET`, chained `WITH`
+  pipelines, `COLLECT`, `UNWIND`, list comprehensions, `REDUCE`. **He said it was fun to learn
+  (10-26)**: same pattern as Rust in GTALens, a tool learned because a project he cared about
+  needed it.
+- **Used:** schema design, `INSERT ... ON DUPLICATE KEY UPDATE` upserts, `INNER` and `LEFT JOIN`
+  (including a left-join anti-join delete), derived-table and `NOT IN` subqueries, `GROUP BY`,
+  `DISTINCT`, `ORDER BY ... LIMIT`, commits.
+- **Not found:** window functions (`OVER (...)`), CTEs (`WITH`), parameterized queries. Every
+  query is an f-string with hand-rolled quote escaping. Analyst interviews lean hard on window
+  functions and CTEs, and any dev interview would flag the injection risk. Those three are the
+  real SQL gap, and they're small.
+- **Power BI / Tableau:** no evidence. That's the actual gap.
 
 Sources:
 [Fluid Jobs — race team](https://fluidjobs.com/jobs/race-team) ·
@@ -102,3 +133,10 @@ Sources:
 [Operations Analyst salary, KC MO](https://www.payscale.com/research/US/Job=Operations_Analyst/Salary/a81b2a1d/Kansas-City-MO) ·
 [Track Titan raises $5M](https://itbrief.news/story/track-titan-raises-usd-5m-to-power-ai-racing-coaching) ·
 [Coach Dave Academy](https://coachdaveacademy.com/?p=98209)
+
+## Check-ins
+
+- 2026-10-26 (CT): Career check-in: Most analyst postings I pulled want SQL plus a BI tool. Have you started either, or is your Apps Script work already covering some of it?
+  - **His answer (10-26):** neither is part of Apps Script or any current project; his SQL is from
+    the Discord bot days. Reviewed and written up above.
+- 2026-11-10 (CT, in session; he raised it): What raise would it take to trade away "no expectations"?

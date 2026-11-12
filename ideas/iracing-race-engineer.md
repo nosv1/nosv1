@@ -140,3 +140,11 @@ it. Not before the caught call works.
 
 The part nobody does well yet is the conversational, judgment layer. That's where this one can be
 different.
+
+## Thinking ahead (11-11, his idea)
+
+Have the engineer think through a likely outcome in advance, so that when the data point arrives, the
+response is already prepared. Open questions, his to answer: which outcomes are worth preparing, when
+the thinking runs (the GPU is busy with VR), and what happens to a prepared answer that's gone out of date.
+It moves the LLM's slowness out of the moment the call has to be made, which is where the
+GPU constraint hurts most.
