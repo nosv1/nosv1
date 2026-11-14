@@ -17,4 +17,9 @@ read a checkpoint, then lurk that checkpoint's thread. The threads are archived 
 | 5 | 21–26 | 249–302 | not in sidebar; search | |
 | 6 | 27–end | 303–390 | 15 | |
 
-Thread URLs weren't captured (Reddit blocks Claude's fetches); add them here if he sends them.
+Thread links (from him, 11-13):
+
+- Ch 1–3: https://www.reddit.com/r/bookclub/comments/e5z8fh/scheduled_the_threebody_problem_ch_13/
+- Ch 4–6: https://www.reddit.com/r/bookclub/comments/e7g94o/scheduled_the_threebody_problem_ch_46/
+- Ch 7–13: https://www.reddit.com/r/bookclub/comments/eatzt5/scheduled_the_threebody_problem_ch_713/
+- Ch 14–20, 21–26, 27–end: not saved yet; search as above.
