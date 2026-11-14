@@ -72,6 +72,8 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   later "what did you learn?" conversation, reminders on missed topics only. Web app, free for him.
   [Notes](ideas/youtube-quiz.md). Repo [claudes-afterwatch](https://github.com/nosv1/claudes-afterwatch);
   cloud environment "afterwatch". Next: he adds a Gemini key (from a computer), then test 3 videos.
+- **Reading** The Three-Body Problem (11-13) along with an archived r/bookclub read-along; links and progress in
+  [reading/three-body-problem.md](reading/three-body-problem.md). He wants people, not AI, to share books with.
 - Other ideas: [motorcycle telemetry](ideas/motorcycle-telemetry.md). Orbital path planning was active 10-07;
   not raised since. Bowling app parked — don't raise.
 - **Off days are real.** He ran ~19 h/week for 22 days straight into October; enthusiasm dropped.
