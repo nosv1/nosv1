@@ -1,7 +1,7 @@
 # claude-trades: Trade Pulse
 
 Raised 2026-11-15, from the video "Why We're Suddenly Being Told to Stockpile" (The Invisible Hand).
-He has ~1 oz of silver and wanted to see global trends (food + metals) in one place.
+He wanted to see global trends (food + metals) in one place.
 
 - **Live:** <https://nosv1.github.io/claude-trades/>. Repo: [nosv1/claude-trades](https://github.com/nosv1/claude-trades)
   (public, needed for free Pages). Local folder is still `C:/Users/chris/cluade-trades` (typo).
