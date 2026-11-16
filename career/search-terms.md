@@ -140,3 +140,5 @@ Sources:
   - **His answer (10-26):** neither is part of Apps Script or any current project; his SQL is from
     the Discord bot days. Reviewed and written up above.
 - 2026-11-10 (CT, in session; he raised it): What raise would it take to trade away "no expectations"?
+- 2026-11-16 (CT, in session; he raised it): If the call to change roles came tomorrow, what would you need to
+  already have in place to say no without worrying?
