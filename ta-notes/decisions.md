@@ -118,3 +118,10 @@ repo-convention change.
 
 - **Non-code changes go straight to `main`** (his call): notes, logs, profile edits. No branch, no
   merge. Code still goes on a branch so it can be reviewed.
+
+## 2026-11-16
+
+- **NASA/JPL "Power of 10" is the coding standard in every language** (his call): code I write in
+  "just build it" repos, and what his own code is reviewed against. He said "NASA and GPL"; read
+  as JPL (GPL is a license). Mindset translation to Python/JS lives in PROFILE.md. Breaches are
+  fix now on new or touched code; existing code isn't retrofitted unless he asks.

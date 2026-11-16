@@ -46,6 +46,37 @@ finished his own is fine too.
 
 ---
 
+## Coding standard: NASA/JPL "Power of 10", in every language
+
+> "When we're in just build it mode, or really my standard too, we need to code in the NASA and
+> [JPL] coding standard. Even if it's not C, it's still the mindset." (2026-11-16)
+
+Holzmann's *Power of 10* (JPL, 2006) is the base. It's written for C; carry the mindset over. This
+applies to code I write in "just build it" repos and is what I review his code against. A breach is
+**fix now** on new or touched code. Older code isn't retrofitted unless he asks.
+
+1. **Simple control flow.** No recursion, no `goto`-style tricks, no exceptions used as flow
+   control. Iterate instead.
+2. **Every loop has a fixed upper bound.** Retries, polling, pagination and `while` loops carry a
+   max count. Every network call has a timeout. A long-running loop (server, event loop) bounds
+   the work done in each pass.
+3. **No unbounded growth after startup.** Caches, queues, buffers and anything filled from outside
+   input have a size cap. In GC languages this replaces "no `malloc` after init."
+4. **Functions fit on one page:** 60 lines or fewer.
+5. **Assert the contract.** Check every function's preconditions and invariants; aim for two checks
+   a function. Use real checks that raise, not ones that can be stripped (Python's `assert` goes
+   away under `-O`). A failed check does something explicit.
+6. **Smallest possible scope.** No mutable module globals; declare data where it's used.
+7. **Check every return and every error.** Validate parameters. No bare `except`, no empty
+   `catch`, no ignored promise or status code.
+8. **No metaprogramming magic.** No `eval`, monkeypatching or code generated at runtime; keep
+   decorators and macros plain.
+9. **Limit indirection.** Shallow call chains, no dispatch on strings, no deep callback nesting.
+10. **Zero warnings at the strictest settings, from day one.** Strict type checking (mypy or pyright
+    strict, `tsc --strict`), linters on, enforced in CI where the repo has CI.
+
+---
+
 ## Who he is
 
 Chris — MS in Computer Science, 2024, **data-science emphasis**. Two years with little programming
