@@ -74,6 +74,9 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   cloud environment "afterwatch". Next: he adds a Gemini key (from a computer), then test 3 videos.
 - **claude-trades** (11-15, "just build it"): from a video on food shortages and global trade; scope
   TBD. Local repo at `C:\Users\chris\cluade-trades` (typo folder name), no remote. [Notes](ideas/claude-trades.md).
+- **Ride Finder** ([claudes-ride-finder](https://github.com/nosv1/claudes-ride-finder), since 10-31, "just build it"):
+  motorcycle ride planner, live on GitHub Pages. Its README, FEATURES.md and BACKLOG.md hold the state. Local clone
+  `C:\Users\chris\claudes-ride-finder`. 11-16: another session is bringing its code up to the coding standard.
 - **Reading** The Three-Body Problem (11-13) along with an archived r/bookclub read-along; links and progress in
   [reading/three-body-problem.md](reading/three-body-problem.md). He wants people, not AI, to share books with.
 - Other ideas: [motorcycle telemetry](ideas/motorcycle-telemetry.md). Orbital path planning was active 10-07;
