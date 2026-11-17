@@ -80,7 +80,8 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 - **Sufficiency / options thread (11-16, parked, he was tired):** wants to be "sufficient," not rich, and to be
   able to say no to a role change. Leads: retainer-style work ("paid to be available") selling the dealership
   Apps Script skill to others. Blocker he named: doesn't trust his code as production. Log: sessions/2026-11.md.
-  Don't push; pick up if he does.
+  11-17: he said solving others' problems daily "exhausts me"; his own (dealership) energize him. Overflow-lot
+  Dijkstra's in Apps Script is the best evidence on file for the "production code" doubt. Don't push; pick up if he does.
 - **Reading** The Three-Body Problem (11-13) along with an archived r/bookclub read-along; links and progress in
   [reading/three-body-problem.md](reading/three-body-problem.md). He wants people, not AI, to share books with.
 - Other ideas: [motorcycle telemetry](ideas/motorcycle-telemetry.md). Orbital path planning was active 10-07;
