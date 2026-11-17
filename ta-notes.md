@@ -136,6 +136,8 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   "you have / missing", pushes them to his phone, logs to career/job-digest.md as `Claude (routine)`. He knows it
   exists (unlike the check-ins). Id `trig_01V7Q13k9tHQS4AxjTFHAJV8`. Stores no connectors and no repo source; if its
   commits fail, add nosv1/nosv1 to it at claude.ai/code/routines.
+  **11-17 first run was broken:** job sites blocked by the Default environment and the push refused. Fix is in
+  career/job-digest.md; it needs him at a computer. Until fixed, every run will say "no fits." Check next session.
 - **Hours: undecided** since the curriculum ended. Don't log until he decides. (Curriculum hours
   were logged in 12_months' `background-threads/week-NN.md`; that log is frozen.)
 - **Make room for creative thinking, not just known solutions** (asked 10-13: "would be fun to
