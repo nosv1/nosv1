@@ -85,6 +85,25 @@ postings make the winter decision easier than a blank page.
 - **Recurring ask across analyst postings: SQL and a BI tool.** SQL is not a gap (see below); a
   BI tool is.
 
+### 2026-11-17: curated pass (Claude, web search; he asked, "looking at them depresses me")
+
+Target from today: in-house operations / inventory / logistics analyst who owns a physical operation, KC metro.
+Aggregator results; dates unverified, some likely closed. Check the employer page before acting.
+
+- **Garmin, Global Transportation Analyst 1 (Olathe):** models transportation networks, Excel logistics analysis;
+  accepts Analytics degrees. Best fit found; entry level; use the Garmin contact first.
+  [listing](https://jofdav.com/jobs/51921579-global-transportation-analyst-1)
+- **Garmin, Allocation and Lead Time Analyst (Olathe):** supply vs demand on customer orders. Gap: Oracle
+  experience. [listing](https://jofdav.com/jobs/51990661-allocation-and-lead-time-analyst)
+- **Garmin, Planner 1 / Supply Planner 1 (Olathe):** entry-level supply chain planning; recurring postings.
+  [listing](https://jobs.spacetalent.org/companies/garmin-2/jobs/74242868-planner-1)
+- **Model 1, Inventory Operations Analyst:** vehicle inventory orders and strategy, $57–67k; location unverified,
+  pay near or below current. [listing](https://careers-model1.icims.com/jobs/2122/inventory-operations-analyst/job)
+- **Circle Logistics, Yard Manager (KC, at a Ford facility):** runs a finished-vehicle yard; supervisory and
+  outdoor, not analyst. Proof the big yard exists locally.
+  [listing](https://www.wayup.com/i-j-Yard-Manager-Circle-Logistics-552200792662316)
+- Benchmark: operations research analyst, Kansas average ~$91k (ZipRecruiter, 06-2026).
+
 ### SQL: what he already has (reviewed 10-26 from his public repos)
 
 He has written MySQL against his own self-hosted server since 2021, in Discord bots and race data
