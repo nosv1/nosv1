@@ -18,6 +18,7 @@ Target (from 2026-11-17)
 - Location: Kansas City metro (Olathe, Overland Park, KCMO, KCK, Belton) or fully remote. No relocation, no heavy travel.
 - Honeywell (Kansas City National Security Campus) and other clearance roles near KC are OK (his call, 2026-11-17); flag when a clearance is required.
 - Exclude: car auctions and anything about vehicle pricing (he doesn't care about car prices), sales/negotiation roles, senior roles needing 5+ years, pure software-engineer roles.
+- Day shift (1st shift) only: drop 2nd, 3rd, night, weekend and "various shift" roles (his call, 2026-11-17).
 - Rail and shipment tracking/logistics roles are a plus (he found that interesting, 2026-11-17).
 
 Rules
