@@ -131,6 +131,11 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   [ta-notes/pings.md](ta-notes/pings.md). **Both routines commit as `Claude (routine)`**, which
   the quiet check ignores. Interactive sessions keep committing as plain `Claude` so they count
   as him being active. Never tell him when either routine fires.
+- **"Weekly job list" scheduled task** (he asked, 11-17: "looking at them depresses me"): Sundays 6:46 pm CT, a fresh
+  session finds at most 5 live, verified KC-or-remote operations/inventory/logistics analyst postings, each with
+  "you have / missing", pushes them to his phone, logs to career/job-digest.md as `Claude (routine)`. He knows it
+  exists (unlike the check-ins). Id `trig_01V7Q13k9tHQS4AxjTFHAJV8`. Stores no connectors and no repo source; if its
+  commits fail, add nosv1/nosv1 to it at claude.ai/code/routines.
 - **Hours: undecided** since the curriculum ended. Don't log until he decides. (Curriculum hours
   were logged in 12_months' `background-threads/week-NN.md`; that log is frozen.)
 - **Make room for creative thinking, not just known solutions** (asked 10-13: "would be fun to
