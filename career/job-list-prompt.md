@@ -16,7 +16,9 @@ Target (from 2026-11-17)
 - In-house operations / inventory / logistics / supply-chain / allocation / demand-planning analyst, or operations research analyst, who OWNS an ongoing operation (a number to improve over time), not a project-only or consulting role.
 - Best: anything that moves physical goods, especially vehicles (dealer groups, auctions, finished-vehicle yards, rail ramps, rental hubs, OEM allocation), and Garmin (Olathe; he has a contact).
 - Location: Kansas City metro (Olathe, Overland Park, KCMO, KCK, Belton) or fully remote. No relocation, no heavy travel.
-- Exclude: defense/clearance roles (he has passed on them), sales/pricing/negotiation roles, senior roles needing 5+ years, pure software-engineer roles.
+- Honeywell (Kansas City National Security Campus) and other clearance roles near KC are OK (his call, 2026-11-17); flag when a clearance is required.
+- Exclude: car auctions and anything about vehicle pricing (he doesn't care about car prices), sales/negotiation roles, senior roles needing 5+ years, pure software-engineer roles.
+- Rail and shipment tracking/logistics roles are a plus (he found that interesting, 2026-11-17).
 
 Rules
 - At most 12 web searches and 15 page fetches this run. Every fetch has a timeout; skip what fails.
