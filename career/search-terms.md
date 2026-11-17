@@ -142,3 +142,8 @@ Sources:
 - 2026-11-10 (CT, in session; he raised it): What raise would it take to trade away "no expectations"?
 - 2026-11-16 (CT, in session; he raised it): If the call to change roles came tomorrow, what would you need to
   already have in place to say no without worrying?
+- 2026-11-17 (CT, in session; he raised it, driving back from Wichita): "What is the perfect job for me?"
+  Claude's idea: an in-house operations research / inventory optimization analyst who owns one physical
+  operation (vehicle inventory, logistics, allocation), local, clock-out hours. Why: optimization pull, problems
+  that feel like his (11-17), the dealership as the bridge, no travel or move. Race strategy named as the dream
+  with its real costs. Gaps: a BI tool; SQL window functions and CTEs; the overflow-lot write-up.
