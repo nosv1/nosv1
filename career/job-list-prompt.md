@@ -13,7 +13,8 @@ SETUP
 2. Read PROFILE.md, career/search-terms.md, and career/job-digest.md (what earlier runs already sent).
 
 TARGET
-- In-house operations, logistics, supply chain, inventory, allocation, demand planning, or operations research analyst. The role should OWN an ongoing operation (a number to improve over time), not a one-off project or consulting.
+- Hands-on, in-house operations work with lots of repetitive data or spreadsheet work and room to automate it: logistics analyst, inventory control analyst, operations analyst, transportation analyst, supply chain data analyst, operations research analyst. What he enjoys (11-17) is building a tool and then using it himself to do his own job in less time. Low expectations plus access to data is a feature, so entry and associate level are fine.
+- Avoid roles whose core is customer contact or being accountable for a KPI: demand planner, buyer, account or customer-facing coordinator. Avoid pure developer roles too (he'd build for others and never use it), and one-off project or consulting work.
 - A plus: rail and shipment tracking, logistics yards, moving physical goods. Garmin (Olathe; he has a contact). Honeywell at the Kansas City National Security Campus is OK; flag when a clearance is required.
 - Location: Kansas City metro (Olathe, Overland Park, KCMO, KCK, Belton) or fully remote. No relocation, no heavy travel.
 - Day shift (1st shift) only. Drop 2nd, 3rd, night, weekend and "various shift" roles.
@@ -27,6 +28,7 @@ RULES
 - Skip anything already in career/job-digest.md unless it changed.
 - At most 5 verified postings. Zero is a fine answer. Never pad the list.
 - Never put his name, email or other personal details in a search or request.
+- Garmin: query its job API directly, e.g. `https://careers.garmin.com/api/jobs?keywords=analyst&location=Olathe&limit=100` (JSON; postings link to careers.garmin.com/jobs/<req_id>, apply on careers-garmin.icims.com). Its Workday host returns errors.
 
 FOR EACH POSTING
 Title, company, location, shift, pay if listed, link, one line on why it fits.

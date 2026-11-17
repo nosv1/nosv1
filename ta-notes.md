@@ -141,6 +141,9 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   **11-17 test (he ran it):** repo push works; job hosts allowed (he added the ATS list, Claude added www.garmin.com,
   careers.rbglobal.com, jobs.gxo.com on his approval). Garmin Workday returns 500 to plain fetches and the run's
   classifier refused the JSON API, so Garmin may stay unverifiable. Each new employer domain may need allowing.
+  **11-17 later:** Garmin verifies via careers.garmin.com/api/jobs (now in the prompt). Target rewritten after
+  his reaction: hands-on ops seat with data and room to automate, not "own a number" (see search-terms Check-ins).
+  **His to do:** paste the new TARGET and RULES lines into the app routine.
 - **Hours: undecided** since the curriculum ended. Don't log until he decides. (Curriculum hours
   were logged in 12_months' `background-threads/week-NN.md`; that log is frozen.)
 - **Make room for creative thinking, not just known solutions** (asked 10-13: "would be fun to

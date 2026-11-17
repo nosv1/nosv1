@@ -166,3 +166,11 @@ Sources:
   operation (vehicle inventory, logistics, allocation), local, clock-out hours. Why: optimization pull, problems
   that feel like his (11-17), the dealership as the bridge, no travel or move. Race strategy named as the dream
   with its real costs. Gaps: a BI tool; SQL window functions and CTEs; the overflow-lot write-up.
+- 2026-11-17 (CT, in session, reacting to the weekly list's Garmin Planner 2): "a bit out of my skill set."
+  On digging in: **"minimal interest in talking to customers and chasing any kind of number."** What he enjoys
+  is **using the tool he built**: his spreadsheet work makes his own job faster, "I can do more in less time."
+  And the low bar is the point: "no one expects anything out of you... if you have access to data, then you get
+  to do more stuff with it for fun." **This changes the 11-17 target:** not "own a number" but a hands-on
+  operations seat with data access and room to automate it, where he's the user of what he builds. Not KPI-owner
+  roles, not customer-facing ones, not pure dev. His current job already has this; a move has to keep it and pay
+  more. Prompt file updated; he pastes the new Target into the app routine.
