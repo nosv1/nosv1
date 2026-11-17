@@ -33,3 +33,26 @@
 - **Dropped:** 4 (3 unverifiable hosts, 1 likely closed).
 - **Fix:** allow www.garmin.com, careers.rbglobal.com, jobs.gxo.com in the routine's environment; allow the
   Workday JSON endpoint (POST /wday/cxs/...) for *.myworkdayjobs.com, since Workday pages need it to list jobs.
+
+## 2026-11-17 21:38 UTC (scheduled run)
+
+- **Sent:** 1 verified fit (Garmin Planner 2), 1 unverified lead.
+- **Budget used:** 1 of 12 searches, 15 of 15 fetches.
+- **Network:** www.garmin.com, jobs.gxo.com, careers.rbglobal.com all load now (200). garmin.wd1.myworkdayjobs.com
+  still returns 500 / 422, but Garmin's real job system is careers.garmin.com (`/api/jobs` JSON, applications on
+  careers-garmin.icims.com), which works. Next run: query that directly.
+- **Verified (Garmin careers API, 2026-11-17):**
+  - **Garmin, Planner 2 (demand planner), Olathe KS, req 20280**, posted 2026-11-11, full time, pay and shift not
+    listed (HQ office role; ESD shoes required on the floor). Demand forecasting vs channel inventory and
+    sell-through; "owns accountability for department KPIs". Asks bachelor's + 2 yrs relevant experience; desired
+    manufacturing/distribution experience, CPIM, 5+ yrs (desired, not required).
+    https://careers.garmin.com/jobs/20280 (apply: https://careers-garmin.icims.com/jobs/20280/login)
+- **Unverified (fetch budget ran out):** Louis Dreyfus Company, Junior Logistics Analyst (KC MO, entry level, rail
+  logistics and shipment tracking). Only aggregator copy: https://builtin.com/job/junior-logistics-analyst/9041951
+- **Closed or gone since last run:** Garmin Global Transportation Analyst 1, Allocation and Lead Time Analyst,
+  Operations Analyst 2, Planner 1 (none in Garmin's Olathe listings today); GXO Logistics Analyst 1st Shift req
+  392312 (not in GXO's Kansas City analyst search).
+- **Dropped:** 4. Garmin ERP Application Analyst – Supply Chain (Oracle EBS configuration, IT role, not owning an
+  operation); GXO Implementation Analyst (2nd shift); GXO Trade Compliance Senior Analyst (senior); Garmin
+  interns. IAA/RB Global remarketing analyst not rechecked (vehicle remarketing, borderline excluded).
+- **Blocked hosts:** none.
