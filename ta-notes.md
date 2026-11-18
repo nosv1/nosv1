@@ -84,7 +84,8 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   Dijkstra's in Apps Script is the best evidence on file for the "production code" doubt. Don't push; pick up if he does.
 - **Dealership lot app** (11-17, "just build it"): replaces his three-spreadsheet Sheets system (Import,
   Inventory, Inputs) with one app; fast phone logging is the core need. [Notes](ideas/dealership-lot-app.md).
-  Waiting on his day list and constraints (Workspace? other users?).
+  Apps Script web app (stays in Google); him, then a new assistant. Requirements Q&A in progress: 10 open
+  questions saved in the notes; he answers when he can. Don't write code until they're answered.
 - **Reading** The Three-Body Problem (11-13) along with an archived r/bookclub read-along; links and progress in
   [reading/three-body-problem.md](reading/three-body-problem.md). He wants people, not AI, to share books with.
 - Other ideas: [motorcycle telemetry](ideas/motorcycle-telemetry.md). Orbital path planning was active 10-07;
