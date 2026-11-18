@@ -98,6 +98,11 @@ cloned at `C:\Users\chris\claudes-lot`; screenshots live in its `reference/`.
 - **Neighbors** = cars in spots directly next to each other. Where a sidewalk separates two spots,
   a clash is a soft rule there: avoided if possible, not a problem if not. So the app stores, per
   spot, its neighbor and whether a sidewalk lies between.
+- **Round 3 (11-18):** current system stays until a migration is ready; double entry during the trial
+  is fine; app -> his bridge spreadsheet -> dealership spreadsheets. Sign-in: specific Google accounts.
+  First lot: used. **Speed of input is the top priority**: the sheet's edge is one page per lot, so
+  the app keeps that. Spot list from the Inputs layouts, "mostly right, some are off". Design draft:
+  claudes-lot `docs/design.md`.
 - **The solver is not for now.** It's been on his to-do list a long time; he's open to thinking it
   through later. Getting scripts: clasp (11-18).
 
