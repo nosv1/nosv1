@@ -93,6 +93,11 @@ cloned at `C:\Users\chris\claudes-lot`; screenshots live in its `reference/`.
   unique cars from the back, neighboring cars can't be dark next to dark or light next to light. A
   unique car with no swap that satisfies that is no use, unless moving n other cars makes room. That's
   an optimization problem, offered to him as his piece (like the overflow Dijkstra's).
+- **Neighbors** = cars in spots directly next to each other. Where a sidewalk separates two spots,
+  a clash is a soft rule there: avoided if possible, not a problem if not. So the app stores, per
+  spot, its neighbor and whether a sidewalk lies between.
+- **The solver is not for now.** It's been on his to-do list a long time; he's open to thinking it
+  through later. Getting scripts: clasp (11-18).
 
 Next rounds: the import side (which systems, how often, any automatic exports), and what goes back out
 to the dealership spreadsheets.
