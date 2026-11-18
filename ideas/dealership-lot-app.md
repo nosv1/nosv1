@@ -40,7 +40,7 @@ His diagram (11-17) is a little stale; redraw for the app.
   probably being shown, not missing); orange = issue (damage, restock, etc.); red = dead battery;
   blue = move to another spot; yellow = missing in-car paperwork.
 - **Edit script:** e.g. typing "11213 window sticker addendum xy" turns the cell yellow, keeps 11213 as
-  the value and moves the text into a cell note.
+  the value and moves the text into a cell note. (Full codes: round 2, Q7.)
 - **Main (Inventory) sheet:** dead batteries, inventory type counts, sales rundowns, lists of cars
   that could be moved to avoid duplicates, "a lot of that kind of stuff."
 - **Map tab (fig 2):** the same data laid out in the lot's shape around the buildings (service,
@@ -49,26 +49,40 @@ His diagram (11-17) is a little stale; redraw for the app.
 - **Scale:** about 1,500 spots in total; he logs about 300 in front and about 100 in back. Tabs exist for
   lots he doesn't walk (recon, service).
 
-## Open questions (his, answer when he can)
+## Answers, round 2 (11-18)
 
-He was still answering when Claude asked these; he ran out of time 11-17.
+1. **Spots:** painted, every car in a real spot; curbs when full (e.g. a "north curb" input area, where
+   only "in this lot or not" matters). **The location ID depends on the lot:** the retail lot uses
+   "RETAIL [section]" (the row is known but matters less); every other lot is just the lot name. The
+   overflow lot is one location for now; a per-spot grid only for the Dijkstra's work.
+2. **Map:** mainly a quick lookup ("do I have a location for this stock # / VIN?") via find-on-page;
+   otherwise for show. So a search box covers the real use on day one; the drawn map can wait.
+3. **Scope:** 350–450 spots for retail-ready cars (new, plus used cars through detail). ~500 more for
+   recon, service, employees.
+4. **IDs:** used cars are logged by VIN (last 6), new by stock #; both get pulled to the map so either
+   can be searched. #N/A = blank cell or an ID not in inventory (a REGEXEXTRACT on "" errors).
+   App: the VIN is the key; accept either a stock # or the last 6 of the VIN as input.
+5. **Emoji:** ~35 flags, nearly all computed from Inventory Extra columns in one ArrayFormula
+   (new: photo count < 20, dead / started after dead, not reporting, issue, unique, duplicate, move to
+   retail, oldest, inactive, sold < 10 days ago, retired loaner, dealer trade, multiple locations, stop
+   sale, sticker event, needs MSRP, needs addendum, recall; used: UVeye scan, needs physical, needs
+   miles, transferred out, age buckets 21/45 days). Plus class, color and certification emoji.
+6. **Multiple flags:** no way to show them today. The app holds a set of flags per car.
+7. **Edit script** (`onEdit`, Inputs):
+   - `x` clears the cell. In the overflow lot it resets the key location to "TBD" instead.
+   - `<number><note>x<color>` keeps the number, appends the note to the cell note and sets the color:
+     b, g, p, r, w, y, o.
+   - `<number>ps` = parked out of spot: logs it to a ParkedOutOfSpot list, clears the cell, turns it pink.
+8. **Walks:** edits changes only, never retypes. The used lot (~90 cars) every morning; the new lot is
+   spot-checked, triggered by bad parking or **dark cars touching dark cars (or light touching light)**.
+   iPhone 16 Pro; signal present but spotty (near an airport); battery forces Low Power Mode late in
+   the day, which slows Sheets further.
+9. **Sold, not delivered:** stays in its cell with a "probably sold" emoji.
+10. **Spots changing:** shouldn't; the lot was just repaved.
 
-1. Are the spot numbers physically painted on the lot (G30, G29…)? If so, is "G29" the spot's ID and
-   the walk order just a route through those IDs?
-2. Who uses the map, and for what (finding a car for someone, spotting gaps, showing a manager)? Want it
-   in the app on day one?
-3. Other lots (recon, service…): in the app from the start, or only the ~400 he walks, the rest later?
-4. The #N/A cells on the map are nearly all used cars (VIN-6 entries): a known bug, or is the lookup
-   only built for stock #s? Related: why stock # for new and last 6 of the VIN for used (what's printed
-   on the car, or the systems)? Which one does the app treat as the car's ID?
-5. What do the emoji in the model labels mean? Which come from data, which are added by hand?
-6. Can a car have more than one flag at a time (e.g. dead battery and missing paperwork)? A cell only
-   holds one color; the app could hold several.
-7. What codes does the edit script recognize besides "xy"?
-8. On a walk, does he retype every spot or only the changes? How often does he walk, on what device
-   (phone, tablet), and is the signal good everywhere on the lot (offline needed)?
-9. When a car sells but is still in its cell, what happens today?
-10. Do any spots change (restriped lines, cones for events)?
+His other scripts (Inventory: Code, ReconPaths, AStar, Dijkstra, StatusDialog, services, vAutoHeaders,
+LocationLog; Import: Code, ImportExcelAttachments) stay out of this public repo. So do screenshots with
+stock numbers.
 
 Next rounds: the import side (which systems, how often, any automatic exports), and what goes back out
 to the dealership spreadsheets.
