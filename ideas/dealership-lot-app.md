@@ -82,7 +82,9 @@ His diagram (11-17) is a little stale; redraw for the app.
 
 His other scripts: Inventory (Code, ReconPaths, AStar, Dijkstra, StatusDialog, services, vAutoHeaders,
 LocationLog) and Import (Code, ImportExcelAttachments). **His call (11-18): the scripts are his, not
-the dealership's, and fine in public.** App repo: private [claudes-lot](https://github.com/nosv1/claudes-lot),
+the dealership's, and fine in public.** Exception found 11-18: Inventory's `vAutoHeaders.js` holds a
+vAuto session cookie (a login credential), so it's git-ignored in claudes-lot. Pulled with clasp into
+claudes-lot `reference/scripts/` (inputs, inventory, import). App repo: private [claudes-lot](https://github.com/nosv1/claudes-lot),
 cloned at `C:\Users\chris\claudes-lot`; screenshots live in its `reference/`.
 
 **Spots and order (11-18):**
