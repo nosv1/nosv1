@@ -82,6 +82,9 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   Apps Script skill to others. Blocker he named: doesn't trust his code as production. Log: sessions/2026-11.md.
   11-17: he said solving others' problems daily "exhausts me"; his own (dealership) energize him. Overflow-lot
   Dijkstra's in Apps Script is the best evidence on file for the "production code" doubt. Don't push; pick up if he does.
+- **Dealership lot app** (11-17, "just build it"): replaces his three-spreadsheet Sheets system (Import,
+  Inventory, Inputs) with one app; fast phone logging is the core need. [Notes](ideas/dealership-lot-app.md).
+  Waiting on his day list and constraints (Workspace? other users?).
 - **Reading** The Three-Body Problem (11-13) along with an archived r/bookclub read-along; links and progress in
   [reading/three-body-problem.md](reading/three-body-problem.md). He wants people, not AI, to share books with.
 - Other ideas: [motorcycle telemetry](ideas/motorcycle-telemetry.md). Orbital path planning was active 10-07;
