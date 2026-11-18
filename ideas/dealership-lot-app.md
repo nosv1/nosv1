@@ -80,9 +80,19 @@ His diagram (11-17) is a little stale; redraw for the app.
 9. **Sold, not delivered:** stays in its cell with a "probably sold" emoji.
 10. **Spots changing:** shouldn't; the lot was just repaved.
 
-His other scripts (Inventory: Code, ReconPaths, AStar, Dijkstra, StatusDialog, services, vAutoHeaders,
-LocationLog; Import: Code, ImportExcelAttachments) stay out of this public repo. So do screenshots with
-stock numbers.
+His other scripts: Inventory (Code, ReconPaths, AStar, Dijkstra, StatusDialog, services, vAutoHeaders,
+LocationLog) and Import (Code, ImportExcelAttachments). **His call (11-18): the scripts are his, not
+the dealership's, and fine in public.** App repo: private [claudes-lot](https://github.com/nosv1/claudes-lot),
+cloned at `C:\Users\chris\claudes-lot`; screenshots live in its `reference/`.
+
+**Spots and order (11-18):**
+
+- Every spot gets an ID for the app. People see a plain-language label (e.g. "Used Lot, curb side,
+  spot 20"), never the code.
+- Order within a row is required, because neighbors matter. When duplicates in front get swapped for
+  unique cars from the back, neighboring cars can't be dark next to dark or light next to light. A
+  unique car with no swap that satisfies that is no use, unless moving n other cars makes room. That's
+  an optimization problem, offered to him as his piece (like the overflow Dijkstra's).
 
 Next rounds: the import side (which systems, how often, any automatic exports), and what goes back out
 to the dealership spreadsheets.
