@@ -104,7 +104,10 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
    for the KiCad project (scaffolding is mine to do).
 4. **afterwatch**: open sessions in [claudes-afterwatch](https://github.com/nosv1/claudes-afterwatch) and
    follow its `docs/notes.md` handoff (Gemini key from a PC, then the 3-video test). "Just build it."
-5. **Still undecided from 10-10** (park unless he raises them): hours logging after the curriculum
+5. **Power of 10 recall (11-18):** open with a 60-second quiz, rules out of order. Carry over: he explains why the GC
+   doesn't stop unbounded growth; round 2 in the 11-18 log. He thinks iracing-soma breaks rule 3; if he wants,
+   have him find the uncapped collections himself.
+6. **Still undecided from 10-10** (park unless he raises them): hours logging after the curriculum
    (proposed: log project hours, all projects); open caught-call questions (ahead by position or on
    track; name or position in the call); the milestone's "done" (proposed: spoken, a real race,
    left on the whole time, calls right).
