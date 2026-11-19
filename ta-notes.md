@@ -103,7 +103,8 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
    groups...). Code on a branch + preview; while he's on the lot, Claude reviews and merges itself (his call).
    Owed: a full code review of 068e2e7..HEAD, rule-5 checks in today's small handlers, remove batteryImport.
    **Inventory_Extra → Import migration in progress** (his ask 11-19): claudes-lot `docs/migration.md` is the handoff
-   (37 formula columns staged; waiting on his Tiger_Sales table + Master_Used rename, then re-check). Claude has a paired read-only device (token in `~/.lot-walk`, never printed).
+   **Sheet side done and verified 11-19 16:25** (39 columns staged in Import, 40 of 45 checked match, rest explained).
+   **Resume with:** Lot Walk's Export tab (35 location/app columns), then cutover. Handoff: claudes-lot `docs/migration.md`. Claude has a paired read-only device (token in `~/.lot-walk`, never printed).
 1. **Otto**: HW1 in the repo's `docs/roadmap.md`. Give the real assignment, no warm-ups (10-17).
    Open sessions in otto-the-robot. Retry the Fuel depot download first. Design stays his.
 2. **iracing-soma**: flags, then the 60.9 s / 7.4 s outlier calls. Ask for his own approaches
