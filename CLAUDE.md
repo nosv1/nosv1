@@ -5,5 +5,5 @@ project lives in its own repo and points here.
 
 @PROFILE.md
 
-**Session start:** read [ta-notes.md](ta-notes.md). **Session end:** update it, append to
+**Session start:** `git pull` this repo, then read [ta-notes.md](ta-notes.md) (11-18: a stale copy missed a whole session). **Session end:** update it, append to
 `ta-notes/sessions/YYYY-MM.md`, commit as Claude.

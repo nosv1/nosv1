@@ -1,5 +1,9 @@
 # Dealership lot app
 
+**Built and live 11-18 as Lot Walk** (<https://lot-walk.pages.dev>). Current state, decisions and next
+steps now live in the private repo [claudes-lot](https://github.com/nosv1/claudes-lot): `docs/notes.md` and
+`docs/design.md`. This file keeps the kickoff Q&A (11-17, 11-18).
+
 **Started 2026-11-17. Mode: "just build it"** (his call: "I have the flow, and the need, not the
 time"). Claude writes the code; Chris owns the flow and the requirements.
 

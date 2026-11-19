@@ -82,10 +82,13 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   Apps Script skill to others. Blocker he named: doesn't trust his code as production. Log: sessions/2026-11.md.
   11-17: he said solving others' problems daily "exhausts me"; his own (dealership) energize him. Overflow-lot
   Dijkstra's in Apps Script is the best evidence on file for the "production code" doubt. Don't push; pick up if he does.
-- **Dealership lot app** (11-17, "just build it"): replaces his three-spreadsheet Sheets system (Import,
-  Inventory, Inputs) with one app; fast phone logging is the core need. [Notes](ideas/dealership-lot-app.md).
-  Apps Script web app (stays in Google); him, then a new assistant. Requirements Q&A in progress: 10 open
-  questions saved in the notes; he answers when he can. Don't write code until they're answered.
+- **Lot Walk, the dealership lot app** (11-17 kickoff, "just build it"): **live 11-18 at lot-walk.pages.dev**.
+  Repo [claudes-lot](https://github.com/nosv1/claudes-lot) (private; clone `C:\Users\chris\claudes-lot`). Page on
+  Cloudflare Pages, data in Google (Apps Script service reads Import view-only, writes only its own Lot App
+  Data sheet). Dictation walk, all six lots plus Customer Lot, spot codes, paste, map, lists, flags. He owns
+  the flow and steers design; the duplicate-swap solver and distance-to-door are **his** to design. The
+  repo's CLAUDE.md and `docs/notes.md` hold state; open sessions there. He may redesign the UI layout
+  around his checklists (survey in `docs/design.md`).
 - **Reading** The Three-Body Problem (11-13) along with an archived r/bookclub read-along; links and progress in
   [reading/three-body-problem.md](reading/three-body-problem.md). He wants people, not AI, to share books with.
 - Other ideas: [motorcycle telemetry](ideas/motorcycle-telemetry.md). Orbital path planning was active 10-07;
@@ -95,6 +98,8 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Next session
 
+0. **Lot Walk**: open sessions in claudes-lot and follow its `docs/notes.md`. First: his reaction to the
+   Customer Lot / Lists build (11-18 19:24), then the UI-layout rethink he mentioned.
 1. **Otto**: HW1 in the repo's `docs/roadmap.md`. Give the real assignment, no warm-ups (10-17).
    Open sessions in otto-the-robot. Retry the Fuel depot download first. Design stays his.
 2. **iracing-soma**: flags, then the 60.9 s / 7.4 s outlier calls. Ask for his own approaches
