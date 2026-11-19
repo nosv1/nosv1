@@ -98,8 +98,10 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Next session
 
-0. **Lot Walk**: open sessions in claudes-lot and follow its `docs/notes.md`. First: his reaction to the
-   Customer Lot / Lists build (11-18 19:24), then the UI-layout rethink he mentioned.
+0. **Lot Walk**: open sessions in claudes-lot and follow its `docs/notes.md`. First: what Lot App Data
+   should export to what used to be Inventory_Extra (he's thinking it through, 11-18 22:48; Lot App Data is
+   now his location source, the Inputs sheet's job). Then the UI-layout rethink. Claude has its own paired
+   device for read-only live checks (token in `~/.lot-walk`, never printed; he can unpair it).
 1. **Otto**: HW1 in the repo's `docs/roadmap.md`. Give the real assignment, no warm-ups (10-17).
    Open sessions in otto-the-robot. Retry the Fuel depot download first. Design stays his.
 2. **iracing-soma**: flags, then the 60.9 s / 7.4 s outlier calls. Ask for his own approaches
