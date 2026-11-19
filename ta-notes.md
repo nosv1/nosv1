@@ -98,9 +98,9 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Next session
 
-0. **Lot Walk**: open sessions in claudes-lot and follow its `docs/notes.md` (Next 1). First ask: branch or
-   main for code (every commit 11-18/19 went to main while he tested live). Then his phone checks and the export
-   shape for Inventory_Extra. Claude has a paired read-only device (token in `~/.lot-walk`, never printed).
+0. **Lot Walk**: open sessions in claudes-lot and follow its `docs/notes.md` (Next 1). Code on a branch +
+   Pages preview, merge on his OK (his call 11-19). VIN-6 change live 11-19 07:17. Owed: his phone checks and the
+   export shape for Inventory_Extra. Claude has a paired read-only device (token in `~/.lot-walk`, never printed).
 1. **Otto**: HW1 in the repo's `docs/roadmap.md`. Give the real assignment, no warm-ups (10-17).
    Open sessions in otto-the-robot. Retry the Fuel depot download first. Design stays his.
 2. **iracing-soma**: flags, then the 60.9 s / 7.4 s outlier calls. Ask for his own approaches
