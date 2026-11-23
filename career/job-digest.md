@@ -56,3 +56,30 @@
   operation); GXO Implementation Analyst (2nd shift); GXO Trade Compliance Senior Analyst (senior); Garmin
   interns. IAA/RB Global remarketing analyst not rechecked (vehicle remarketing, borderline excluded).
 - **Blocked hosts:** none.
+
+## 2026-11-23 00:05 UTC (scheduled run)
+
+- **Sent:** "No new verified fits this week." 3 unverified leads.
+- **Budget used:** 10 of 12 searches, 13 of 15 fetches.
+- **Searches:** KC logistics analyst (ATS hosts); LDC Junior Logistics Analyst careers; inventory control analyst KC/Lenexa/Olathe/OP;
+  transportation/operations analyst entry level KC rail/freight/warehouse; LDC careers site; CPKC Local Operations &
+  Inventory Management Coordinator (x2); LDC on Workday. Garmin via its careers API (keywords analyst, logistics, supply,
+  inventory, transportation; Olathe).
+- **Verified:** none fit.
+- **Unverified (employer job system blocked or not found):**
+  - **Louis Dreyfus Company, Junior Logistics Analyst** (KC MO, entry level, 0-3 yrs): rail logistics data, shipment
+    tracking, billing, metrics; Excel. LDC's job system is SmartRecruiters (blocked). Aggregator copy dated 4/14/2026,
+    "reposted recently" on Built In. https://builtin.com/job/junior-logistics-analyst/9041951
+  - **CPKC, Local Operations & Inventory Management Coordinator** (KC MO or Winnipeg, entry level): local rail operations
+    planning, inventory audits, waybilling. No employer page surfaced.
+    https://tealhq.com/job/coordinator-local-operations-planning_18ede942-ab28-4ee9-83f2-5b33d1a5985f
+  - **University of Kansas Health System, Inventory Analyst (M-F 7am-3:30pm)**, Kansas City KS (also a Shawnee
+    distribution-center Inventory Analyst). Employer site blocked.
+    https://jobs.kansashealthsystem.com/job/kansas-city/inventory-analyst-m-f-7am-3-30pm/38901/81061204912
+- **Dropped:** 6. Garmin Business Analyst OM Support, req 19240 (posted 11-18; requirements-gathering and training role,
+  15%+ travel, international-hours flex); Garmin IT Asset Analyst 2, req 20495 (5 yrs); Garmin Inventory Planning,
+  Transportation Analyst, Supply Planner interns (internships); GXO Procurement Analyst 1st Shift (buyer role, 1 yr
+  commodity buyer, 25% travel); GXO Implementation Analyst (2nd shift, carried over); Children's Mercy Inventory Control
+  Analyst req 2025-35506 (HTTP 410, closed). Garmin Planner 2 (req 20280) still open, already sent.
+- **Blocked hosts:** jobs.kansashealthsystem.com, careers.cargill.com, jobs.smartrecruiters.com, api.smartrecruiters.com
+  (DNS/proxy 403). Cargill Rail Execution Specialist (KC KS, 2 yrs, $64-80k) unchecked as a result.
