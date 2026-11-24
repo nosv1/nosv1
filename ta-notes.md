@@ -105,6 +105,11 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Next session
 
+- **Coding standard (11-23):** one copy, [CODING.md](CODING.md), strictest settings, baselines that only shrink,
+  in every repo with CI. Ask: merge Soma's `claude/festive-mayer-oc3q1q` (tooling only) into `player_constants`?
+  Should Soma's CI also run pytest once the TODO stubs are written? On the PC, each repo needs `npm install` /
+  `pip install -r requirements-dev.txt` once before Check works.
+
 0. **Lot Walk**: open sessions in claudes-lot and follow its `docs/notes.md`. 11-19 was a long on-the-lot day
    (~30 changes: battery log + import, Low Batteries, Customer Parking as a list, out-of-spot homes, zoom, list
    groups...). Code on a branch + preview; while he's on the lot, Claude reviews and merges itself (his call).

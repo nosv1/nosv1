@@ -62,7 +62,8 @@ findings are recorded in a baseline so the checks pass today, and **the baseline
   `eslint --prune-suppressions` after fixing).
 - **tsc, Ruff, mypy:** `checks-baseline.json`, kept by `tools/check_baseline.py`. It counts findings per file
   and code. More than the baseline, or a new file or code, fails. Fewer passes and says to run it again
-  with `--update`, which refuses to raise any count.
+  with `--update`, which refuses to raise any count. Two runs of one checker (two tsconfigs) keep apart
+  with `--section`.
 - **CI fails on any finding not in a baseline.** Nobody adds to a baseline by hand or to get a commit
   through. The one exception: the standard itself tightens (a new rule or a stricter limit). Then the
   baseline is regenerated with `--init` / `--suppress-all` in its own commit, which says what changed.
@@ -76,6 +77,20 @@ A rule that's wrong for one line is disabled on that line only, with the rule na
 `// eslint-disable-next-line no-await-in-loop -- one request at a time, the server rate-limits`,
 `# noqa: S603 (the command is ours)`, `# type: ignore[import-untyped]  # no stubs published`. No file-wide
 or blanket disables, no bare `# type: ignore` (mypy rejects it). An unused disable comment fails lint.
+
+## Where it stands (2026-11-23)
+
+Every repo has these settings, its baselines and CI (Soma's on branch `claude/festive-mayer-oc3q1q` for his
+review). Old findings at the start, lint / types / Python:
+
+| Repo | Lint | Types | Python (Ruff + mypy) |
+| --- | --- | --- | --- |
+| claudes-lot | 104 | 168 | 44 + 63 |
+| claude-trades | 41 | 765 | 190 + 179 |
+| claudes-ride-finder | 226 | 2,045 | 435 + 550 |
+| claude-spells | 95 | 788 | none |
+| claudes-afterwatch | none yet | none yet | 7 + 9 |
+| iracing-soma (his) | — | — | 114 + 3 |
 
 ## A repo's CLAUDE.md
 

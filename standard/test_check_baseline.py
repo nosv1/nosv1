@@ -91,6 +91,15 @@ class Ratchet(unittest.TestCase):
         self.assertEqual(self.run_main("", 0, "--update"), 0)
         self.assertEqual(json.loads(self.base.read_text(encoding="utf-8")), {})
 
+    def test_sections_are_kept_apart(self) -> None:
+        self.run_main(TSC_OUT, 2, "--init", "--section", "tsc-web")
+        self.assertEqual(self.run_main("", 0, "--init", "--section", "tsc-service"), 0)
+        self.assertEqual(self.run_main(TSC_OUT, 2, "--section", "tsc-web"), 0)
+        self.assertEqual(self.run_main(TSC_OUT, 2, "--section", "tsc-service"), 1)
+
+    def test_bad_section_name_is_an_error(self) -> None:
+        self.assertEqual(self.run_main(TSC_OUT, 2, "--section", "Bad Name"), cb.CHECKER_FAILED)
+
     def test_crashed_checker_is_not_clean(self) -> None:
         self.assertEqual(self.run_main("Segmentation fault\n", 139), cb.CHECKER_FAILED)
 

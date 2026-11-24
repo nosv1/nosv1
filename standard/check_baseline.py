@@ -8,10 +8,11 @@ ESLint doesn't need this: it has its own (eslint-suppressions.json).
 Canonical copy: nosv1/nosv1, standard/check_baseline.py (CODING.md, "Baselines"). Repos keep a
 copy; change the hub's and copy it out. Python 3.10+, standard library only.
 
-    python3 tools/check_baseline.py tsc -- npx tsc -p tsconfig.json --pretty false
-    python3 tools/check_baseline.py ruff -- ruff check --output-format json .
-    python3 tools/check_baseline.py mypy -- mypy src
+    python tools/check_baseline.py tsc -- npx tsc -p tsconfig.json --pretty false
+    python tools/check_baseline.py ruff -- ruff check --output-format json .
+    python tools/check_baseline.py mypy -- mypy src
 
+    --section NAME  keep this run apart from another run of the same checker (two tsconfigs, say)
     --update   write today's counts; refused if any count grew
     --init     write today's counts even if they grew (only when the standard itself tightens)
 """
@@ -36,6 +37,7 @@ CHECKER_FAILED = 2  # exit code when the checker itself didn't run properly
 TSC_LINE = re.compile(r"^(?P<file>[^\s(][^(]*)\(\d+,\d+\): error (?P<code>TS\d+): ")
 TSC_GLOBAL = re.compile(r"^error (?P<code>TS\d+): ")
 MYPY_LINE = re.compile(r"^(?P<file>[^\s:][^:]*):\d+:(?:\d+:)? error: .*\[(?P<code>[a-z0-9-]+)\]\s*$")
+SECTION = re.compile(r"^[a-z][a-z0-9_.-]{0,39}$")
 MYPY_SUMMARY = re.compile(r"^(Found \d+ errors?|Success: no issues found)")
 
 Counts = dict[str, dict[str, int]]  # file -> code -> count
@@ -136,16 +138,16 @@ def load_baseline(path: Path) -> dict[str, Counts]:
     except (OSError, json.JSONDecodeError) as err:
         raise BaselineError(f"can't read {path}: {err}") from err
     if not isinstance(raw, dict):
-        raise BaselineError(f"{path} should hold an object keyed by checker")
+        raise BaselineError(f"{path} should hold an object keyed by section")
     data: dict[str, Counts] = {}
-    for checker, files in raw.items():
-        require(checker in CHECKERS, f"{path}: unknown checker {checker!r}")
-        require(isinstance(files, dict), f"{path}: {checker} should map files to codes")
-        data[checker] = {}
+    for section, files in raw.items():
+        require(SECTION.match(str(section)) is not None, f"{path}: bad section name {section!r}")
+        require(isinstance(files, dict), f"{path}: {section} should map files to codes")
+        data[section] = {}
         for name, codes in files.items():
             ok = isinstance(codes, dict) and all(isinstance(n, int) and n > 0 for n in codes.values())
-            require(ok, f"{path}: {checker} / {name} should map codes to positive counts")
-            data[checker][str(name)] = {str(c): int(n) for c, n in codes.items()}
+            require(ok, f"{path}: {section} / {name} should map codes to positive counts")
+            data[section][str(name)] = {str(c): int(n) for c, n in codes.items()}
     return data
 
 
@@ -165,17 +167,17 @@ def compare(now: Counts, base: Counts) -> tuple[list[str], list[str]]:
     return grew, shrank
 
 
-def write_baseline(path: Path, data: dict[str, Counts], checker: str, now: Counts) -> None:
-    require(checker in CHECKERS, f"checker must be one of {CHECKERS}")
+def write_baseline(path: Path, data: dict[str, Counts], section: str, now: Counts) -> None:
+    require(SECTION.match(section) is not None, f"bad section name {section!r}")
     if now:
-        data[checker] = {f: dict(sorted(c.items())) for f, c in sorted(now.items())}
+        data[section] = {f: dict(sorted(c.items())) for f, c in sorted(now.items())}
     else:
-        data.pop(checker, None)
+        data.pop(section, None)
     path.write_text(json.dumps(data, indent=1, sort_keys=True) + "\n", encoding="utf-8")
 
 
 def report(checker: str, grew: list[str], shrank: list[str], total: int) -> None:
-    print(f"{checker}: {total} findings in the baseline's files and codes")
+    print(f"{checker}: {total} findings now")
     if grew:
         print(f"{checker}: {len(grew)} new or grown (fix these; the baseline never grows):")
         print("\n".join(grew[:MAX_SHOWN]))
@@ -187,6 +189,7 @@ def main(argv: list[str]) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("checker", choices=CHECKERS)
     parser.add_argument("--baseline", type=Path, default=BASELINE)
+    parser.add_argument("--section", help="baseline section name (default: the checker's name)")
     parser.add_argument("--update", action="store_true", help="write today's counts (refused if any grew)")
     parser.add_argument("--init", action="store_true", help="write today's counts even if they grew")
     if "--" not in argv:
@@ -194,20 +197,22 @@ def main(argv: list[str]) -> int:
     split = argv.index("--")
     args = parser.parse_args(argv[:split])
     command = argv[split + 1 :]
+    section: str = args.section or args.checker
     try:
+        require(SECTION.match(section) is not None, f"bad section name {section!r}")
         now = run_checker(args.checker, command)
         data = load_baseline(args.baseline)
-        grew, shrank = compare(now, data.get(args.checker, {}))
+        grew, shrank = compare(now, data.get(section, {}))
+        report(section, grew, shrank, sum(sum(c.values()) for c in now.values()))
+        if args.init or (args.update and not grew):
+            write_baseline(args.baseline, data, section, now)
+            print(f"{section}: wrote {args.baseline}")
+            return 0
     except BaselineError as err:
         print(f"check_baseline: {err}", file=sys.stderr)
         return CHECKER_FAILED
-    report(args.checker, grew, shrank, sum(sum(c.values()) for c in now.values()))
-    if args.init or (args.update and not grew):
-        write_baseline(args.baseline, data, args.checker, now)
-        print(f"{args.checker}: wrote {args.baseline}")
-        return 0
     if args.update:
-        print(f"{args.checker}: not written: the baseline only shrinks (--init is for a tighter standard)")
+        print(f"{section}: not written: the baseline only shrinks (--init is for a tighter standard)")
     return 1 if grew else 0
 
 
