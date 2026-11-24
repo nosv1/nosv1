@@ -26,7 +26,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Where things stand
 
-**Updated 2026-11-08 21:29 CST** (last full pass 10-26 19:00 CDT) from the repos' own notes (Soma 10-18 to 21, Otto 10-23; PCB untouched since 10-11). Hub moved here from
+**Updated 2026-11-23 20:14 CST** from every repo's own notes (last full pass 10-26 19:00 CDT; PCB untouched since 10-11). Hub moved here from
 [12_months](https://github.com/nosv1/12_months) on 10-10, history included.
 
 - **The robotics curriculum is no longer the path** (decisions.md 10-10). The syllabus stays as a
@@ -71,9 +71,11 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 - **YouTube quiz app** (idea, 11-06, "just build it" mode): pick videos via a Study playlist, a
   later "what did you learn?" conversation, reminders on missed topics only. Web app, free for him.
   [Notes](ideas/youtube-quiz.md). Repo [claudes-afterwatch](https://github.com/nosv1/claudes-afterwatch);
-  cloud environment "afterwatch". Next: he adds a Gemini key (from a computer), then test 3 videos.
-- **claude-trades** (11-15, "just build it"): from a video on food shortages and global trade; scope
-  TBD. Local repo at `C:\Users\chris\cluade-trades` (typo folder name), no remote. [Notes](ideas/claude-trades.md).
+  cloud environment "afterwatch". Key set 11-06 (Windows env var); the first 3-video test got Google 503s
+  (video side overloaded). Next: rerun it. Quiet since 11-06.
+- **Trade Pulse** ([claude-trades](https://github.com/nosv1/claude-trades), 11-15, "just build it", Claude is the domain
+  expert): silver, gold, food prices with history, live at nosv1.github.io/claude-trades. Data refreshes daily (Action);
+  a routine publishes the read every Mon + Fri. State in the repo's `docs/notes.md`. [Notes](ideas/claude-trades.md).
 - **Ride Finder** ([claudes-ride-finder](https://github.com/nosv1/claudes-ride-finder), since 10-31, "just build it"):
   motorcycle ride planner, live on GitHub Pages. Its README, FEATURES.md and BACKLOG.md hold the state. Local clone
   `C:\Users\chris\claudes-ride-finder`. 11-16: another session is bringing its code up to the coding standard. **11-20:** Stadia Maps' free plan now backs up the public router (his call: $0, no PC hosting); donations are his model for later. Usage page live 11-20 10:40 (Worker deployed from the PC, his key set, checked on his iPhone in Safari); all test suites pass on the PC. 11-20 noon: router requests per Generate cut ~23% (532 → 412 over 7 test Generates, same best loops), live as 2026.11.20.7. Afternoon: router-request guard is a heads-up (tests/heads-up.md, his call: "not a warning"), Paved chip menu with "Hide maybe-gravel too", sunset/deer warning (30 min margin); live as 2026.11.20.12. 14:47: Missouri's 8 neighbors + TX on the map (10 states, built on the PC); "Stop for a break" in Generate (local food or somewhere to walk, his design; the rest of Adventures, incl. I rode it + GPS verdict, is in BACKLOG.md). Live as 2026.11.20.14. Evening 11-20: zoomed-out state outlines, break links/Skip/bars, Must include places, Reverse, Both, Food and Sights chips; live as 2026.11.20.26. Open: settings sync can lose places (BACKLOG.md).
@@ -91,6 +93,11 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   around his checklists (survey in `docs/design.md`).
 - **Reading** The Three-Body Problem (11-13) along with an archived r/bookclub read-along; links and progress in
   [reading/three-body-problem.md](reading/three-body-problem.md). He wants people, not AI, to share books with.
+- **Sim-racing rig accessories with Seth** (idea 11-22, no repo): came out of Seth's "$1k/week business" question
+  after Chris said a dealer-tooling service would drain him. Seth designs and 3D-prints, Chris is the customer.
+  Plan: a 30-minute competition check per item, then 10 sales in a month or kill it. Details: sessions/2026-11.md 11-22.
+- **Earlier work, his own:** [sra-insights](https://github.com/nosv1/sra-insights) (league stats site, last work 05-2026)
+  and [sra_data](https://github.com/nosv1/sra_data) (2025, the Neo4j race graph behind it). Now listed in the README.
 - Other ideas: [motorcycle telemetry](ideas/motorcycle-telemetry.md). Orbital path planning was active 10-07;
   not raised since. Bowling app parked — don't raise.
 - **Off days are real.** He ran ~19 h/week for 22 days straight into October; enthusiasm dropped.
