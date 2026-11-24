@@ -1,0 +1,18 @@
+{
+  "//": "The coding standard's type-check flags (nosv1/nosv1 CODING.md, rule 10). Copy compilerOptions into the repo's tsconfig; add paths, lib and types there.",
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "skipLibCheck": true
+  }
+}

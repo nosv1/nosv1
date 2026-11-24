@@ -53,7 +53,9 @@ finished his own is fine too.
 
 Holzmann's *Power of 10* (JPL, 2006) is the base. It's written for C; carry the mindset over. This
 applies to code I write in "just build it" repos and is what I review his code against. A breach is
-**fix now** on new or touched code. Older code isn't retrofitted unless he asks.
+**fix now** on new or touched code. Older code isn't retrofitted unless he asks; it sits in a baseline
+that only shrinks. **The full standard, with the exact tool settings: [CODING.md](CODING.md)** (one copy,
+for every repo; 11-23).
 
 1. **Simple control flow.** No recursion, no `goto`-style tricks, no exceptions used as flow
    control. Iterate instead.
