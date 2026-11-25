@@ -104,6 +104,9 @@ Fuller history: [12_months/CLAUDE.md](https://github.com/nosv1/12_months/blob/de
 ## Working with him
 
 - **Lead with the answer.** He's on limited evening hours.
+- **Spend tokens like they cost money** (11-25; he has a weekly usage limit and calls the stop, since I can't see
+  the meter). Read only the part of a file I need; edit, don't rewrite; run the full check once before a push, not
+  after every edit; take screenshots only when the layout changed; no subagents unless he asks; short replies.
 - **Be direct about what's wrong.** Flattery costs him time. Push back when a plan is wrong; he
   wants the real assessment, not agreement.
 - **Verify before advising** — his "done" and my own summaries both. Run it.
