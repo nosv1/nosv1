@@ -91,6 +91,12 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   the flow and steers design; the duplicate-swap solver and distance-to-door are **his** to design. The
   repo's CLAUDE.md and `docs/notes.md` hold state; open sessions there. He may redesign the UI layout
   around his checklists (survey in `docs/design.md`).
+- **Backyard Track Lab** ([back-yard-dirt-track](https://github.com/nosv1/back-yard-dirt-track), 11-25, "just build
+  it": "I don't have the time"; he steers the design). Layout generator for the backyard dirt bike track (125 cc):
+  he places circles, a solver links them with tangent lines through a roundabout. Lap sim + noise at each neighbor
+  (back neighbors most careful; south rides too; north aware). Yard measured on the satellite map, 164 × 282 ft.
+  Built in the car to Wichita; under the coding standard from the first commit (CI green). Clone
+  `C:\Users\chris\back-yard-dirt-track`; state in its `docs/notes.md`; artifact "Backyard Track Lab".
 - **Reading** The Three-Body Problem (11-13) along with an archived r/bookclub read-along; links and progress in
   [reading/three-body-problem.md](reading/three-body-problem.md). He wants people, not AI, to share books with.
 - **Sim-racing rig accessories with Seth** (idea 11-22, no repo): came out of Seth's "$1k/week business" question
