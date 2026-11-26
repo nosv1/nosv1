@@ -26,7 +26,7 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
 
 ## Where things stand
 
-**Updated 2026-11-23 20:14 CST** from every repo's own notes (last full pass 10-26 19:00 CDT; PCB untouched since 10-11). Hub moved here from
+**Updated 2026-11-26 17:40 CST** from every repo's own notes (last full pass 10-26 19:00 CDT; PCB untouched since 10-11). Hub moved here from
 [12_months](https://github.com/nosv1/12_months) on 10-10, history included.
 
 - **The robotics curriculum is no longer the path** (decisions.md 10-10). The syllabus stays as a
@@ -101,6 +101,10 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   idea), pinch to resize. **Open, his call:** keep the roundabout as the one required circle or a per-circle "must
   use" toggle; whether the overlay needs an off switch. Clone `C:\Users\chris\back-yard-dirt-track`; state in its
   `docs/notes.md`.
+- **Which card?** ([claudes-card-picker](https://github.com/nosv1/claudes-card-picker), private, 11-26, "just build
+  it"): best card by category and quarter, rewards tally on the device; live at which-card.nosv1.workers.dev. Clone
+  `C:\Users\chris\claudes-card-picker`. Discover Q1/Q2 2027 categories still blank. **Parked, his call:** a finance
+  app built from past years' statements ("that'll take a bit of brain power").
 - **Reading** The Three-Body Problem (11-13) along with an archived r/bookclub read-along; links and progress in
   [reading/three-body-problem.md](reading/three-body-problem.md). He wants people, not AI, to share books with.
 - **Sim-racing rig accessories with Seth** (idea 11-22, no repo): came out of Seth's "$1k/week business" question
