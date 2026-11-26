@@ -95,8 +95,12 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   it": "I don't have the time"; he steers the design). Layout generator for the backyard dirt bike track (125 cc):
   he places circles, a solver links them with tangent lines through a roundabout. Lap sim + noise at each neighbor
   (back neighbors most careful; south rides too; north aware). Yard measured on the satellite map, 164 × 282 ft.
-  Built in the car to Wichita; under the coding standard from the first commit (CI green). Clone
-  `C:\Users\chris\back-yard-dirt-track`; state in its `docs/notes.md`; artifact "Backyard Track Lab".
+  Built in the car to Wichita; under the coding standard from the first commit (CI green). Live on
+  [Pages](https://nosv1.github.io/back-yard-dirt-track/) (what he uses; the artifact copy is stale). Evening adds:
+  phone fixes, Randomize, saves, ghost overlay of other layouts, exhaust direction (estimated), Ride a lap (Seth's
+  idea), pinch to resize. **Open, his call:** keep the roundabout as the one required circle or a per-circle "must
+  use" toggle; whether the overlay needs an off switch. Clone `C:\Users\chris\back-yard-dirt-track`; state in its
+  `docs/notes.md`.
 - **Reading** The Three-Body Problem (11-13) along with an archived r/bookclub read-along; links and progress in
   [reading/three-body-problem.md](reading/three-body-problem.md). He wants people, not AI, to share books with.
 - **Sim-racing rig accessories with Seth** (idea 11-22, no repo): came out of Seth's "$1k/week business" question
