@@ -143,6 +143,9 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
    (proposed: log project hours, all projects); open caught-call questions (ahead by position or on
    track; name or position in the call); the milestone's "done" (proposed: spoken, a real race,
    left on the whole time, calls right).
+7. **Rig close script** (11-26, tooling, Claude wrote it): `C:\Users\chris\scripts\Close-Rig.ps1` (+ `.cmd` for
+   Stream Deck), not in a repo. Open with him: did he set Discord in/out to Default and point the Stream Deck button
+   at it; does AC/LMU actually close (process names guessed); 5 s grace or 2 s; matching Open-Rig script?
 
 **Keep replies short.** Put the task in the **final** message, never mid-turn.
 
