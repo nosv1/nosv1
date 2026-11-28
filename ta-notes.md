@@ -103,8 +103,10 @@ on 2026-10-10). From now on, one file per month: `sessions/YYYY-MM.md`.
   `docs/notes.md`.
 - **Which card?** ([claudes-card-picker](https://github.com/nosv1/claudes-card-picker), private, 11-26, "just build
   it"): best card by category and quarter, rewards tally on the device; live at which-card.nosv1.workers.dev. Clone
-  `C:\Users\chris\claudes-card-picker`. Discover Q1/Q2 2027 categories still blank. **Parked, his call:** a finance
-  app built from past years' statements ("that'll take a bit of brain power").
+  `C:\Users\chris\claudes-card-picker`. Discover Q1/Q2 2027 categories still blank. **Finance app** (design talk 11-28,
+  no repo): goal is a packet an expert can read + a per-purchase view for him; he's investing at ~0 monthly margin.
+  Open: his 4 answers (emergency fund, invest fixed vs sweep, account types, CPA vs planner), data location, AI on
+  receipts. He'll send card terms for the rewards picture. First use of "Becoming the expert" (PROFILE).
 - **Reading** The Three-Body Problem (11-13) along with an archived r/bookclub read-along; links and progress in
   [reading/three-body-problem.md](reading/three-body-problem.md). He wants people, not AI, to share books with.
 - **Sim-racing rig accessories with Seth** (idea 11-22, no repo): came out of Seth's "$1k/week business" question

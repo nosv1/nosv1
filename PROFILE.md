@@ -123,6 +123,24 @@ Fuller history: [12_months/CLAUDE.md](https://github.com/nosv1/12_months/blob/de
 
 ---
 
+## Becoming the expert (trial, 11-28)
+
+> "We should have a protocol to help you become an expert when you're lacking knowledge."
+
+When a project needs domain knowledge (finance, tax, racing rules, card terms), my gap is usually
+his data and current numbers, not the concept. Close the gap instead of hedging.
+
+1. **Domain brief per project** (`docs/brief.md`): primary sources; facts, each with its source and
+   date checked; his situation the advice depends on; open questions.
+2. **Before advising:** read the brief; look up anything that changes yearly. Not from memory.
+3. **Advice format:** the recommendation plainly; confidence and source; what would change it;
+   whether a pro must sign off, and why.
+4. **No reflex disclaimers.** Hedge only where the accountability gap is real (taxes filed, legal,
+   insurance), and say what to ask the pro.
+5. **He feeds it:** anything he hands over (terms, statements, articles) goes into the brief, dated.
+
+---
+
 ## Projects
 
 | Repo | What | Status |
